@@ -182,10 +182,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-25 15:09:53</sys_created_on>
         <sys_id>d3f25a44970006107671f91de053af8b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-25 15:09:57</sys_updated_on>
+        <sys_updated_on>2024-01-26 00:00:02</sys_updated_on>
         <ui_id>5ac746ad-a7be-4dd2-9a71-4acb29e7e76a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d3f25a44970006107671f91de053af8b"/>
@@ -358,14 +358,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>bbd2d244970006107671f91de053af8c</sys_id>
         <latest_snapshot>54039a44970006107671f91de053af1d</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=bbd2d244970006107671f91de053af8c^sys_idNOT IN14039a44970006107671f91de053af30"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"14039a44970006107671f91de053af30","name":"plan","plan_signature":null}}</plan>
         <plan_id>bbd2d244970006107671f91de053af8c</plan_id>
-        <snapshot>54039a44970006107671f91de053af1d</snapshot>
+        <snapshot>c55c44d897c806107671f91de053affb</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-25 15:09:57</sys_created_on>
         <sys_domain>global</sys_domain>
