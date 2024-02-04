@@ -27,14 +27,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-01 23:35:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5bb94ca29748c610e5a61c800153af98</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Date Compare</sys_name>
         <sys_overrides/>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
@@ -42,7 +42,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5bb94ca29748c610e5a61c800153af98</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 11:37:00</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -126,10 +126,10 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:13:19</sys_created_on>
         <sys_id>888210e697c8c610e5a61c800153af47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-02-04 21:17:59</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD2427479b8a00021008d4547d434a1ea5":{},"FlowDesigner:FD2427479b8a00021008d4547d434a1ea5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2427479b8a00021008d4547d434a1ea5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">048210e697c8c610e5a61c800153af14</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -289,10 +289,10 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:15:47</sys_created_on>
         <sys_id>cc13942a97c8c610e5a61c800153af71</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:15:47</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cc13942a97c8c610e5a61c800153af71"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -449,18 +449,6 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=cc13942a97c8c610e5a61c800153af71"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>cc13942a97c8c610e5a61c800153af71</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-02 00:15:47</sys_created_on>
-        <sys_id>c013942a97c8c610e5a61c800153af90</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:15:47</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>end_date</field>
         <id>cc13942a97c8c610e5a61c800153af71</id>
         <sys_created_by>admin</sys_created_by>
@@ -471,18 +459,6 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_updated_on>2024-02-02 00:15:47</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_cc13942a97c8c610e5a61c800153af71</table>
         <value>{{action.end_date}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>cc13942a97c8c610e5a61c800153af71</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-02 00:15:47</sys_created_on>
-        <sys_id>8813942a97c8c610e5a61c800153af90</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:15:47</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>start_date</field>
@@ -498,6 +474,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71^id=cc13942a97c8c610e5a61c800153af71"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cc13942a97c8c610e5a61c800153af71"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc13942a97c8c610e5a61c800153af71"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=cc13942a97c8c610e5a61c800153af71^sys_idNOT IN0813942a97c8c610e5a61c800153af79,8013942a97c8c610e5a61c800153af7d"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -562,14 +539,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:15:47</sys_created_on>
         <sys_id>0813942a97c8c610e5a61c800153af79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:15:47</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -645,14 +622,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:15:47</sys_created_on>
         <sys_id>8013942a97c8c610e5a61c800153af7d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:15:47</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -729,14 +706,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:18:13</sys_created_on>
         <sys_id>3393d86a97c8c610e5a61c800153af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -812,14 +789,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:18:13</sys_created_on>
         <sys_id>3b93d86a97c8c610e5a61c800153af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -895,14 +872,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:18:13</sys_created_on>
         <sys_id>7793d86a97c8c610e5a61c800153af66</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -978,14 +955,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:18:13</sys_created_on>
         <sys_id>7f93d86a97c8c610e5a61c800153af46</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1061,14 +1038,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:18:13</sys_created_on>
         <sys_id>bb93d86a97c8c610e5a61c800153af69</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1144,14 +1121,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:18:13</sys_created_on>
         <sys_id>bf93d86a97c8c610e5a61c800153af3e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1180,9 +1157,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>3f93d86a97c8c610e5a61c800153af68</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
@@ -1203,9 +1180,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>7393d86a97c8c610e5a61c800153af6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
@@ -1226,9 +1203,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>b393d86a97c8c610e5a61c800153af62</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
@@ -1249,9 +1226,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>bb93d86a97c8c610e5a61c800153af42</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
@@ -1272,9 +1249,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>f793d86a97c8c610e5a61c800153af65</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
@@ -1295,9 +1272,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>ff93d86a97c8c610e5a61c800153af45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
@@ -1368,14 +1345,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:13:19</sys_created_on>
         <sys_id>4c8210e697c8c610e5a61c800153af0e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1452,14 +1429,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:13:19</sys_created_on>
         <sys_id>b372dc269788c610e5a61c800153af66</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 00:15:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1478,7 +1455,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f</attributes>
+        <attributes>action_error_output=true,co_type_name=FD2427479b8a00021008d4547d434a1ea5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1539,14 +1516,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:13:19</sys_created_on>
         <sys_id>048210e697c8c610e5a61c800153af14</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1626,14 +1603,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 09:55:46</sys_created_on>
         <sys_id>04d752ee97404a10e5a61c800153af99</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1713,14 +1690,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 09:55:46</sys_created_on>
         <sys_id>44d752ee97404a10e5a61c800153afac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1800,14 +1777,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 09:55:46</sys_created_on>
         <sys_id>48d752ee97404a10e5a61c800153af9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1887,14 +1864,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 00:13:19</sys_created_on>
         <sys_id>888210e697c8c610e5a61c800153af3e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 11:30:30</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1974,14 +1951,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 09:55:46</sys_created_on>
         <sys_id>c8d752ee97404a10e5a61c800153af8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2061,14 +2038,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 09:55:46</sys_created_on>
         <sys_id>ccd752ee97404a10e5a61c800153af86</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2148,14 +2125,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 09:55:46</sys_created_on>
         <sys_id>ccd752ee97404a10e5a61c800153af95</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2197,9 +2174,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>488210e697c8c610e5a61c800153af11</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
@@ -2220,9 +2197,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>cc8210e697c8c610e5a61c800153af0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
@@ -2245,9 +2222,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>0c8210e697c8c610e5a61c800153af3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
@@ -2268,9 +2245,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>0c8210e697c8c610e5a61c800153af43</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
@@ -2291,9 +2268,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>40d752ee97404a10e5a61c800153af8b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
@@ -2314,9 +2291,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>44d752ee97404a10e5a61c800153af91</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
@@ -2337,9 +2314,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>48d752ee97404a10e5a61c800153af98</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
@@ -2360,9 +2337,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>88d752ee97404a10e5a61c800153afab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
@@ -2383,9 +2360,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>8cd752ee97404a10e5a61c800153af9b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
@@ -2406,9 +2383,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>ccd752ee97404a10e5a61c800153afae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
@@ -2420,17 +2397,17 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Date Compare">5bb94ca29748c610e5a61c800153af98</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f32956e297804a10e5a61c800153af6a","name":"plan","plan_signature":null}}</plan>
-        <snapshot>af2916e297804a10e5a61c800153afc9</snapshot>
+        <snapshot>2127c79b970002107671f91de053af2c</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f32956e297804a10e5a61c800153af6a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:46</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:04</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2464,15 +2441,15 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b2916e297804a10e5a61c800153af54</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:00</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2542,10 +2519,10 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>ab2916e297804a10e5a61c800153afc5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FDe527879b4500021011da47d6081b6dca":{},"FlowDesigner:FDe527879b4500021011da47d6081b6dca.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe527879b4500021011da47d6081b6dca\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">5f2916e297804a10e5a61c800153afa6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2705,10 +2682,10 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>932916e297804a10e5a61c800153af62</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=932916e297804a10e5a61c800153af62"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2865,18 +2842,6 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=932916e297804a10e5a61c800153af62"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>932916e297804a10e5a61c800153af62</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-02 10:01:44</sys_created_on>
-        <sys_id>972916e297804a10e5a61c800153af83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>end_date</field>
         <id>932916e297804a10e5a61c800153af62</id>
         <sys_created_by>admin</sys_created_by>
@@ -2887,18 +2852,6 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_932916e297804a10e5a61c800153af62</table>
         <value>{{action.end_date}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>932916e297804a10e5a61c800153af62</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-02 10:01:44</sys_created_on>
-        <sys_id>5f2916e297804a10e5a61c800153af83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>start_date</field>
@@ -2914,6 +2867,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62^id=932916e297804a10e5a61c800153af62"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=932916e297804a10e5a61c800153af62"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=932916e297804a10e5a61c800153af62"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=932916e297804a10e5a61c800153af62^sys_idNOT IN1f2916e297804a10e5a61c800153af69,db2916e297804a10e5a61c800153af65"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2978,14 +2932,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>1f2916e297804a10e5a61c800153af69</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3061,14 +3015,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>db2916e297804a10e5a61c800153af65</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3145,14 +3099,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>132916e297804a10e5a61c800153af7a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3228,14 +3182,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>532916e297804a10e5a61c800153af77</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3311,14 +3265,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>932916e297804a10e5a61c800153af6d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3394,14 +3348,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>932916e297804a10e5a61c800153af74</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3477,14 +3431,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>d32916e297804a10e5a61c800153af71</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3560,14 +3514,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>df2916e297804a10e5a61c800153af7c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3596,9 +3550,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>172916e297804a10e5a61c800153af7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -3619,9 +3573,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>1b2916e297804a10e5a61c800153af70</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
@@ -3642,9 +3596,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>572916e297804a10e5a61c800153af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
@@ -3665,9 +3619,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>972916e297804a10e5a61c800153af76</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
@@ -3688,9 +3642,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>d32916e297804a10e5a61c800153af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -3711,9 +3665,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>d72916e297804a10e5a61c800153af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
@@ -3784,14 +3738,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>072916e297804a10e5a61c800153af5d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3868,14 +3822,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:43</sys_created_on>
         <sys_id>0b2916e297804a10e5a61c800153af58</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3955,14 +3909,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>172916e297804a10e5a61c800153afaa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4042,14 +3996,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>1f2916e297804a10e5a61c800153afb5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4129,14 +4083,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>532916e297804a10e5a61c800153afb9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4216,14 +4170,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>572916e297804a10e5a61c800153afbc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4303,14 +4257,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>5b2916e297804a10e5a61c800153afad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4329,7 +4283,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f</attributes>
+        <attributes>action_error_output=true,co_type_name=FDe527879b4500021011da47d6081b6dca,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4390,14 +4344,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>5f2916e297804a10e5a61c800153afa6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4477,14 +4431,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>972916e297804a10e5a61c800153afa2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4564,14 +4518,14 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-02 10:01:44</sys_created_on>
         <sys_id>d72916e297804a10e5a61c800153afb2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
+        <sys_updated_on>2024-02-04 21:18:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4613,9 +4567,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>4b2916e297804a10e5a61c800153af5c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
@@ -4636,9 +4590,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>9f2916e297804a10e5a61c800153af5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
@@ -4661,9 +4615,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>1f2916e297804a10e5a61c800153afb1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4684,9 +4638,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>532916e297804a10e5a61c800153afb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4707,9 +4661,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>5b2916e297804a10e5a61c800153afa9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4730,9 +4684,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>932916e297804a10e5a61c800153afa6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4753,9 +4707,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>972916e297804a10e5a61c800153afb8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4776,9 +4730,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>9b2916e297804a10e5a61c800153afbb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4799,9 +4753,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>9f2916e297804a10e5a61c800153afac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
@@ -4822,9 +4776,9 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_id>df2916e297804a10e5a61c800153afbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>

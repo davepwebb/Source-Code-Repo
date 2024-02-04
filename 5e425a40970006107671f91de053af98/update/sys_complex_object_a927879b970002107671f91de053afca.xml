@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe527879b4500021011da47d6081b6dca</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5e425a40970006107671f91de053af98</scope_name>
+        <serialized_content>{"FlowDesigner:FDe527879b4500021011da47d6081b6dca":{},"FlowDesigner:FDe527879b4500021011da47d6081b6dca.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3f1baad5-ccc9-4ee8-8662-dcd1cdf3510f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe527879b4500021011da47d6081b6dca\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-04 21:18:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a927879b970002107671f91de053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe527879b4500021011da47d6081b6dca</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_complex_object_a927879b970002107671f91de053afca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
