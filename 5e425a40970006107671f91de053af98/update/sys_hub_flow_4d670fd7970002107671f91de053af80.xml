@@ -1146,11 +1146,11 @@
         <sys_created_on>2024-02-04 21:35:20</sys_created_on>
         <sys_id>4b1bc713974002107671f91de053aff7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4d670fd7970002107671f91de053af80_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-04 21:35:20</sys_updated_on>
         <url/>
@@ -1169,11 +1169,11 @@
         <sys_created_on>2024-02-04 21:35:20</sys_created_on>
         <sys_id>4f1bc713974002107671f91de053afe4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4d670fd7970002107671f91de053af80_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-04 21:35:20</sys_updated_on>
         <url/>
@@ -1192,11 +1192,11 @@
         <sys_created_on>2024-02-04 21:35:20</sys_created_on>
         <sys_id>831bc713974002107671f91de053afe8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4d670fd7970002107671f91de053af80_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-04 21:35:20</sys_updated_on>
         <url/>
