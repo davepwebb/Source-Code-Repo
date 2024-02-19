@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Convert a comma-delimited list to an array</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>convert_string_to_array_of_objects</internal_name>
         <label_cache>[{"name":"{{action.comma_delimited_string}}","label":"action➛comma_delimited_string","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[74374b51-4176-48b8-9917-c355fb64b9c7].list_of_objects}}","label":"step➛split step➛list_of_objects","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD68a431151affb11031950467146a8908","child_label":"list_of_objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"7d798e25-8bf6-421b-a8c8-007a4bbcf63e","uiUniqueId":"b72c2f67-ff24-4004-8d7e-e4c9363c657b"}}]</label_cache>
@@ -34,8 +37,8 @@
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_dc79a1919777b1107671f91de053af4b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-04 23:47:41</sys_updated_on>
+        <sys_updated_by>webbda</sys_updated_by>
+        <sys_updated_on>2024-02-18 15:58:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -203,6 +206,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_140ae9d59777b1107671f91de053af30^id=140ae9d59777b1107671f91de053af30"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=140ae9d59777b1107671f91de053af30"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=140ae9d59777b1107671f91de053af30"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=140ae9d59777b1107671f91de053af30^sys_idNOT IN540a61999777b1107671f91de053af04"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -288,6 +292,29 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=140ae9d59777b1107671f91de053af30^sys_idNOT INd80a61999777b1107671f91de053af3c"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD68a431151affb11031950467146a8908</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3adc763897b37d10e5a61c800153af72</scope_name>
+        <serialized_content>{"FlowDesigner:FD68a431151affb11031950467146a8908":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD68a431151affb11031950467146a8908.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"list_of_objects\",\"mandatory\":\"false\",\"child_name\":\"list_of_objects_child0\",\"uiUniqueId\":\"b72c2f67-ff24-4004-8d7e-e4c9363c657b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD68a431151affb11031950467146a8908\",\"child_label\":\"list_of_objects_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7d798e25-8bf6-421b-a8c8-007a4bbcf63e\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 23:53:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ca4311597ffb1107671f91de053af08</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD68a431151affb11031950467146a8908</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_complex_object_2ca4311597ffb1107671f91de053af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 23:54:38</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -873,11 +900,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Convert a comma-delimited list to an array</description>
+        <flow_priority/>
         <internal_name>convert_string_to_array_of_objects</internal_name>
         <label_cache>[{"name":"{{action.comma_delimited_string}}","label":"action➛comma_delimited_string","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[74374b51-4176-48b8-9917-c355fb64b9c7].list_of_objects}}","label":"step➛split step➛list_of_objects","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD68a431151affb11031950467146a8908","child_label":"list_of_objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"7d798e25-8bf6-421b-a8c8-007a4bbcf63e","uiUniqueId":"b72c2f67-ff24-4004-8d7e-e4c9363c657b"}}]</label_cache>
         <master>true</master>
@@ -1040,6 +1070,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2a3ae91d9777b1107671f91de053af7e^id=2a3ae91d9777b1107671f91de053af7e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=2a3ae91d9777b1107671f91de053af7e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a3ae91d9777b1107671f91de053af7e"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=2a3ae91d9777b1107671f91de053af7e^sys_idNOT IN223ae91d9777b1107671f91de053af82"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1125,6 +1156,29 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=2a3ae91d9777b1107671f91de053af7e^sys_idNOT INe63ae91d9777b1107671f91de053af88"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDae3ae91d3277b1109f2249ccc655cd85</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3adc763897b37d10e5a61c800153af72</scope_name>
+        <serialized_content>{"FlowDesigner:FDae3ae91d3277b1109f2249ccc655cd85":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDae3ae91d3277b1109f2249ccc655cd85.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"list_of_objects\",\"mandatory\":\"false\",\"child_name\":\"list_of_objects_child0\",\"uiUniqueId\":\"b72c2f67-ff24-4004-8d7e-e4c9363c657b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDae3ae91d3277b1109f2249ccc655cd85\",\"child_label\":\"list_of_objects_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7d798e25-8bf6-421b-a8c8-007a4bbcf63e\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 23:08:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>623ae91d9777b1107671f91de053af86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDae3ae91d3277b1109f2249ccc655cd85</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dave App Repo" source="3adc763897b37d10e5a61c800153af72">3adc763897b37d10e5a61c800153af72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dave App Repo">3adc763897b37d10e5a61c800153af72</sys_scope>
+        <sys_update_name>sys_complex_object_623ae91d9777b1107671f91de053af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 23:54:49</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>

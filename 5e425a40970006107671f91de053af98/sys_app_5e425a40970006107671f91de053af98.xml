@@ -16,6 +16,7 @@
         <logo/>
         <menu/>
         <name>Source Code Repo</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -42,4 +43,5 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e425a40970006107671f91de053af98"/>
 </record_update>
