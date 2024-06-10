@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Try (!) to find Inline Scripts in Flow Designer</description>
+        <internal_name>dw_inlne_script_finder</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>DW Inlne Script Finder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 09:59:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>882bad6647110210f3e2a3c9316d43ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DW Inlne Script Finder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_hub_flow_882bad6647110210f3e2a3c9316d43ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_variable_value action="DELETE" query="document_key=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=882bad6647110210f3e2a3c9316d43ad^sys_idNOT INf92079ae47110210f3e2a3c9316d436d"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="DW Inlne Script Finder">882bad6647110210f3e2a3c9316d43ad</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>f92079ae47110210f3e2a3c9316d436d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=f92079ae47110210f3e2a3c9316d436d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f92079ae47110210f3e2a3c9316d436d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>752079ae47110210f3e2a3c9316d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <value>1970-01-01 11:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=f92079ae47110210f3e2a3c9316d436d"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=882bad6647110210f3e2a3c9316d43ad^sys_idNOT IN842bad6647110210f3e2a3c9316d43af"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>882bad6647110210f3e2a3c9316d43ad</id>
+        <name>DW Inlne Script Finder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 09:59:01</sys_created_on>
+        <sys_id>842bad6647110210f3e2a3c9316d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 09:59:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=842bad6647110210f3e2a3c9316d43af"/>
+    <sys_hub_flow_input action="DELETE" query="model=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_hub_flow_output action="DELETE" query="model=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_hub_action_instance action="DELETE" query="flow=882bad6647110210f3e2a3c9316d43ad^sys_idNOT INc22079ae47110210f3e2a3c9316d4389"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Look up sys_update_xml for payloads containing "scriptActive":true,"script"</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="DW Inlne Script Finder">882bad6647110210f3e2a3c9316d43ad</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>c22079ae47110210f3e2a3c9316d4389</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <ui_id>32b3708c-7040-4601-a634-562b53af2d68</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c22079ae47110210f3e2a3c9316d4389"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=c22079ae47110210f3e2a3c9316d4389"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c22079ae47110210f3e2a3c9316d4389"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c22079ae47110210f3e2a3c9316d4389"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=882bad6647110210f3e2a3c9316d43ad^sys_idNOT IN062079ae47110210f3e2a3c9316d437f"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">ca2079ae47110210f3e2a3c9316d437e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DW Inlne Script Finder">882bad6647110210f3e2a3c9316d43ad</flow>
+        <flow_variable/>
+        <flow_variables_assigned>count</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>062079ae47110210f3e2a3c9316d437f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <ui_id>804c29d7-cbb0-4d5c-802c-b5a7521acf58</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=062079ae47110210f3e2a3c9316d437f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>062079ae47110210f3e2a3c9316d437f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>8e2079ae47110210f3e2a3c9316d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="count">0a2079ae47110210f3e2a3c9316d437a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad^id=062079ae47110210f3e2a3c9316d437f"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=062079ae47110210f3e2a3c9316d437f"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=062079ae47110210f3e2a3c9316d437f"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_hub_flow_variable action="DELETE" query="model=882bad6647110210f3e2a3c9316d43ad^sys_idNOT IN0a2079ae47110210f3e2a3c9316d437a,8e2079ae47110210f3e2a3c9316d4377,b12079ae47110210f3e2a3c9316d4371"/>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6364daf1-14f7-44e9-9e6f-8fb0db30517a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DW Inlne Script Finder">882bad6647110210f3e2a3c9316d43ad</model>
+        <model_id>882bad6647110210f3e2a3c9316d43ad</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>0a2079ae47110210f3e2a3c9316d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8886cb1d-e2c3-4c93-85b8-38ea8b32a53d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flow_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Flow Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Inlne Script Finder">882bad6647110210f3e2a3c9316d43ad</model>
+        <model_id>882bad6647110210f3e2a3c9316d43ad</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>8e2079ae47110210f3e2a3c9316d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8804bf95-9393-4ada-8c8f-9c3613f815bc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>latest_comments</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>latest_comments</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DW Inlne Script Finder">882bad6647110210f3e2a3c9316d43ad</model>
+        <model_id>882bad6647110210f3e2a3c9316d43ad</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:20:59</sys_created_on>
+        <sys_id>b12079ae47110210f3e2a3c9316d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:20:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=882bad6647110210f3e2a3c9316d43ad"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Source Code Repo">5e425a40970006107671f91de053af98</application>
+        <file_path/>
+        <instance_id>f931e4471b22f5d09377eb9b2d4bcbad</instance_id>
+        <instance_name>dev219138</instance_name>
+        <name>sys_hub_flow_882bad6647110210f3e2a3c9316d43ad</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access/&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Try (!) to find Inline Scripts in Flow Designer&lt;/description&gt;&lt;internal_name&gt;dw_inlne_script_finder&lt;/internal_name&gt;&lt;label_cache&gt;[]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;DW Inlne Script Finder&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 09:59:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;882bad6647110210f3e2a3c9316d43ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;DW Inlne Script Finder&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98"&gt;5e425a40970006107671f91de053af98&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Source Code Repo"&gt;5e425a40970006107671f91de053af98&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_882bad6647110210f3e2a3c9316d43ad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=882bad6647110210f3e2a3c9316d43ad^sys_idNOT INf92079ae47110210f3e2a3c9316d436d"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="DW Inlne Script Finder"&gt;882bad6647110210f3e2a3c9316d43ad&lt;/flow&gt;&lt;name&gt;Daily&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;f92079ae47110210f3e2a3c9316d436d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Daily"&gt;89142dc0c32222002841b63b12d3ae8a&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;daily&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f92079ae47110210f3e2a3c9316d436d"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;f92079ae47110210f3e2a3c9316d436d&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;752079ae47110210f3e2a3c9316d436f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;value&gt;1970-01-01 11:00:00&lt;/value&gt;&lt;variable display_value="Time"&gt;3ad4edc0c32222002841b63b12d3aee5&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=f92079ae47110210f3e2a3c9316d436d"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=882bad6647110210f3e2a3c9316d43ad^sys_idNOT IN842bad6647110210f3e2a3c9316d43af"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;882bad6647110210f3e2a3c9316d43ad&lt;/id&gt;&lt;name&gt;DW Inlne Script Finder&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 09:59:01&lt;/sys_created_on&gt;&lt;sys_id&gt;842bad6647110210f3e2a3c9316d43af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 09:59:01&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=842bad6647110210f3e2a3c9316d43af"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=882bad6647110210f3e2a3c9316d43ad^sys_idNOT INc22079ae47110210f3e2a3c9316d4389"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment&gt;Look up sys_update_xml for payloads containing "scriptActive":true,"script"&lt;/comment&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="DW Inlne Script Finder"&gt;882bad6647110210f3e2a3c9316d43ad&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;c22079ae47110210f3e2a3c9316d4389&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Source Code Repo"&gt;5e425a40970006107671f91de053af98&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;ui_id&gt;32b3708c-7040-4601-a634-562b53af2d68&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c22079ae47110210f3e2a3c9316d4389"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=c22079ae47110210f3e2a3c9316d4389"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c22079ae47110210f3e2a3c9316d4389"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=c22079ae47110210f3e2a3c9316d4389"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=882bad6647110210f3e2a3c9316d43ad^sys_idNOT IN062079ae47110210f3e2a3c9316d437f"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;ca2079ae47110210f3e2a3c9316d437e&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="DW Inlne Script Finder"&gt;882bad6647110210f3e2a3c9316d43ad&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned&gt;count&lt;/flow_variables_assigned&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Set Flow Variables"&gt;4f787d1e0f9b0010ecf0cc52ff767ea0&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;062079ae47110210f3e2a3c9316d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Source Code Repo"&gt;5e425a40970006107671f91de053af98&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;ui_id&gt;804c29d7-cbb0-4d5c-802c-b5a7521acf58&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=062079ae47110210f3e2a3c9316d437f"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;062079ae47110210f3e2a3c9316d437f&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;8e2079ae47110210f3e2a3c9316d4382&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="count"&gt;0a2079ae47110210f3e2a3c9316d437a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad^id=062079ae47110210f3e2a3c9316d437f"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=062079ae47110210f3e2a3c9316d437f"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=062079ae47110210f3e2a3c9316d437f"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=882bad6647110210f3e2a3c9316d43ad^sys_idNOT IN0a2079ae47110210f3e2a3c9316d437a,8e2079ae47110210f3e2a3c9316d4377,b12079ae47110210f3e2a3c9316d4371"/&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6364daf1-14f7-44e9-9e6f-8fb0db30517a&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;count&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;label&gt;count&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="DW Inlne Script Finder"&gt;882bad6647110210f3e2a3c9316d43ad&lt;/model&gt;&lt;model_id&gt;882bad6647110210f3e2a3c9316d43ad&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;0a2079ae47110210f3e2a3c9316d437a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Source Code Repo"&gt;5e425a40970006107671f91de053af98&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8886cb1d-e2c3-4c93-85b8-38ea8b32a53d&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;flow_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Flow Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="DW Inlne Script Finder"&gt;882bad6647110210f3e2a3c9316d43ad&lt;/model&gt;&lt;model_id&gt;882bad6647110210f3e2a3c9316d43ad&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;8e2079ae47110210f3e2a3c9316d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Source Code Repo"&gt;5e425a40970006107671f91de053af98&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8804bf95-9393-4ada-8c8f-9c3613f815bc&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;latest_comments&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;latest_comments&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="DW Inlne Script Finder"&gt;882bad6647110210f3e2a3c9316d43ad&lt;/model&gt;&lt;model_id&gt;882bad6647110210f3e2a3c9316d43ad&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_882bad6647110210f3e2a3c9316d43ad&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 10:20:59&lt;/sys_created_on&gt;&lt;sys_id&gt;b12079ae47110210f3e2a3c9316d4371&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Source Code Repo"&gt;5e425a40970006107671f91de053af98&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 10:20:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=882bad6647110210f3e2a3c9316d43ad"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-535718739</payload_hash>
+        <record_name>DW Inlne Script Finder</record_name>
+        <reverted_from/>
+        <source>b9b6567947200210f3e2a3c9316d43f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:21:00</sys_created_on>
+        <sys_id>462079ae47110210f3e2a3c9316d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea8a048fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:21:00</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8a2079ae5f110210a9af5ccc77b790a2</update_guid>
+        <update_guid_history>8a2079ae5f110210a9af5ccc77b790a2:-535718739,082be5e6951102107f7e0d17c390783e:-1342222369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 10:49:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>286dcdc4337a45ffa17721c2b7f31dc1</sys_id>
+        <sys_metadata>882bad6647110210f3e2a3c9316d43ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DW Inlne Script Finder</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_scope_delete display_value="">d801bd8b19d4472c88fcfd547578f909</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_882bad6647110210f3e2a3c9316d43ad</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_882bad6647110210f3e2a3c9316d43ad">462079ae47110210f3e2a3c9316d43a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 10:49:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

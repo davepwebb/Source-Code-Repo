@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Test of a Watchlist JSON Payload</description>
+        <ih_action>false</ih_action>
+        <internal_name>tanium_watchlist_payload_builder</internal_name>
+        <label_cache>[{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.description}}","label":"action➛description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.os_type}}","label":"action➛os_type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pathcount}}","label":"action➛pathCount","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"75e74461-89fa-465b-ae24-cfb194537e2c"}},{"name":"{{action.paths}}","label":"action➛paths","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.ops}}","label":"action➛paths➛ops","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5}}","label":"action➛paths➛paths","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.ops}}","label":"action➛paths➛paths➛ops","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.path}}","label":"action➛paths➛paths➛path","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.type}}","label":"action➛paths➛paths➛type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.excludes}}","label":"action➛paths➛paths➛excludes","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.ops.permission}}","label":"action➛paths➛paths➛ops➛permission","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.excludes.spec}}","label":"action➛paths➛paths➛excludes➛spec","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.includes}}","label":"action➛paths➛paths➛includes","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.includes.structure}}","label":"action➛paths➛paths➛includes➛structure","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.export_version}}","label":"action➛export_version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Tanium Watchlist Payload Builder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 20:43:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e483b8647010210f3e2a3c9316d4389</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Tanium Watchlist Payload Builder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0e483b8647010210f3e2a3c9316d4389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e483b8647010210f3e2a3c9316d4389"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0e483b8647010210f3e2a3c9316d4389"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0e483b8647010210f3e2a3c9316d4389</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:08:14</sys_created_on>
+        <sys_id>920e3f8247410210f3e2a3c9316d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:08:14</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">560e3f8247410210f3e2a3c9316d4325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0e483b8647010210f3e2a3c9316d4389</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:08:14</sys_created_on>
+        <sys_id>de0e3f8247410210f3e2a3c9316d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:08:14</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">1e0e3f8247410210f3e2a3c9316d432a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389^id=0e483b8647010210f3e2a3c9316d4389"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN5da0581e47810210f3e2a3c9316d435d,6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</action>
+        <cid>7a45376a-1469-405f-adaf-db006fd0e3c3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Builder">dfd9f353b733111007402a91de11a9e3</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 22:29:32</sys_created_on>
+        <sys_id>5da0581e47810210f3e2a3c9316d435d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5da0581e47810210f3e2a3c9316d435d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 22:29:32</sys_created_on>
+        <sys_id>99a0581e47810210f3e2a3c9316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <value/>
+        <variable display_value="Structure">92da7393b733111007402a91de11a980</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>structure</field>
+        <id>5da0581e47810210f3e2a3c9316d435d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 22:29:32</sys_created_on>
+        <sys_id>15a0581e47810210f3e2a3c9316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dfd9f353b733111007402a91de11a9e3</table>
+        <value>[{"id":"dc8d3617-71c1-476f-bef1-9f523f3a279c","name":"name","value":"{{action.name}}","type":"string","path":[],"choice":"empty string"},{"id":"d5f300bb-b071-416d-8fd3-38dd34d80e6f","name":"description","value":"{{action.description}}","type":"string","path":[],"choice":"empty string"},{"id":"c0689963-d332-433e-bb5e-4c148164d09b","name":"os_type","value":"{{action.os_type}}","type":"string","path":[],"choice":"empty string"},{"id":"5fafb1a6-a865-4e2f-b489-e7fc0eca57a8","name":"pathCount","value":"{{action.pathcount}}","type":"number","path":[],"choice":"empty string"},{"id":"cc13a31c-c55a-4d3b-af17-98e357e82574","name":"paths","value":"","type":"array","path":[],"choice":"empty string"},{"id":"783109f0-3bcb-46d5-ae4d-aeb3a8aee0ff","name":"export_version","value":"{{action.export_version}}","type":"string","path":[],"choice":"empty string"}]</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</action>
+        <cid>d5c96453-2546-4671-9bab-a46300d44fc9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 20:44:04</sys_created_on>
+        <sys_id>6c88f3ca47010210f3e2a3c9316d43e5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6c88f3ca47010210f3e2a3c9316d43e5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 20:44:04</sys_created_on>
+        <sys_id>a8887bca47010210f3e2a3c9316d4353</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:37:54</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Name Value Pairs">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name_value</field>
+        <id>6c88f3ca47010210f3e2a3c9316d43e5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 20:44:04</sys_created_on>
+        <sys_id>e0887bca47010210f3e2a3c9316d4353</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab</table>
+        <value>{"type":"ADV_NV","value":[{"name":"name","value":"{{action.name}}","attributes":{}},{"name":"description","value":"{{action.description}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"os_type","value":"{{action.os_type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"revision","value":"1","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"deleted_at","value":"null","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"deployment_needed","value":"1","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"pathCount","value":"","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"computerGroupCount","value":"0","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"descriptiveStatus","value":"\"draft\"","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"paths","value":"{{action.paths}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN336400da47410210f3e2a3c9316d434b,776400da47410210f3e2a3c9316d4355,bb6400da47410210f3e2a3c9316d4351,dda0581e47810210f3e2a3c9316d433c,f36400da47410210f3e2a3c9316d4343,fb6400da47410210f3e2a3c9316d4347"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1fffec2a-3b5c-4186-a7a4-f14d3574a1e6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>os_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>os_type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>336400da47410210f3e2a3c9316d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=336400da47410210f3e2a3c9316d434b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1af1da1e-78ba-4b76-a55f-b0fbefaa6875</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>export_version</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>export_version</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>776400da47410210f3e2a3c9316d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=776400da47410210f3e2a3c9316d4355"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb364801615010210f941c5cbfda56ab4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5e425a40970006107671f91de053af98</scope_name>
+        <serialized_content>{"FlowDesigner:FDb364801615010210f941c5cbfda56ab4":{"$COCollectionField":[{"paths5":{"path":"String","path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"path\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"excludes":["Any"],"excludes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"excludes\",\"mandatory\":\"false\",\"child_name\":\"spec\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"spec\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"99f73dd2-367d-4b51-b07f-3fcc042603a8\"}"},"ops":["Any"],"ops.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"ops\",\"mandatory\":\"false\",\"child_name\":\"permission\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"permission\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"dc9e2331-d116-4ea0-9849-b5e9bff755c2\"}"},"includes":["Any"],"includes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"includes\",\"mandatory\":\"false\",\"child_name\":\"structure\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"structure\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"0\",\"child_uiUniqueId\":\"77ab692d-77d5-4fd2-b9be-9916f654cc91\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"paths\",\"mandatory\":\"true\",\"child_name\":\"paths5\",\"uiUniqueId\":\"2ad2dd5a-131d-4355-a304-58e18c2d8b49\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDb364801615010210f941c5cbfda56ab4\",\"child_label\":\"paths\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"265674f7-6c55-4740-b251-327f1bf05728\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDb364801615010210f941c5cbfda56ab4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"paths\",\"mandatory\":\"true\",\"child_name\":\"paths5\",\"uiUniqueId\":\"2ad2dd5a-131d-4355-a304-58e18c2d8b49\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDb364801615010210f941c5cbfda56ab4\",\"child_label\":\"paths\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"265674f7-6c55-4740-b251-327f1bf05728\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7764801647010210f3e2a3c9316d43b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDb364801615010210f941c5cbfda56ab4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_complex_object_7764801647010210f3e2a3c9316d43b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:37:54</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=paths,child_name=paths5,child_type=object,child_type_label=Object,child_uiUniqueId=265674f7-6c55-4740-b251-327f1bf05728,co_type_name=FDb364801615010210f941c5cbfda56ab4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=2ad2dd5a-131d-4355-a304-58e18c2d8b49</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>paths</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>paths</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>bb6400da47410210f3e2a3c9316d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bb6400da47410210f3e2a3c9316d4351"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=75e74461-89fa-465b-ae24-cfb194537e2c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pathcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>pathCount</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 22:29:31</sys_created_on>
+        <sys_id>dda0581e47810210f3e2a3c9316d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dda0581e47810210f3e2a3c9316d433c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=93ffee14-2a54-415d-8e3c-3c4aa3a11b0c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>f36400da47410210f3e2a3c9316d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f36400da47410210f3e2a3c9316d4343"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0d8827ae-7d5b-4c2c-8a94-45db6bfa8987</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>description</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>description</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>fb6400da47410210f3e2a3c9316d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fb6400da47410210f3e2a3c9316d4347"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN1e0e3f8247410210f3e2a3c9316d432a,560e3f8247410210f3e2a3c9316d4325"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=1d9c5503-c0d3-4760-8d26-74808129af50,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:08:14</sys_created_on>
+        <sys_id>1e0e3f8247410210f3e2a3c9316d432a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1e0e3f8247410210f3e2a3c9316d432a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1e0e3f8247410210f3e2a3c9316d432a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=f461bd75-90f8-4c76-b2d4-382bf9d25edc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</model>
+        <model_id>0e483b8647010210f3e2a3c9316d4389</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:08:13</sys_created_on>
+        <sys_id>560e3f8247410210f3e2a3c9316d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:08:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=560e3f8247410210f3e2a3c9316d4325"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=560e3f8247410210f3e2a3c9316d4325"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0e483b8647010210f3e2a3c9316d4389"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN64887bca47010210f3e2a3c9316d4357"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 20:44:05</sys_created_on>
+        <sys_id>64887bca47010210f3e2a3c9316d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 20:44:05</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=64887bca47010210f3e2a3c9316d4357"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN336400da47410210f3e2a3c9316d4347,55a0581e47810210f3e2a3c9316d4340,776400da47410210f3e2a3c9316d434a,bb6400da47410210f3e2a3c9316d434d,bb6400da47410210f3e2a3c9316d4354,ff6400da47410210f3e2a3c9316d4357"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <help/>
+        <hint/>
+        <label>name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>336400da47410210f3e2a3c9316d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pathcount</element>
+        <help/>
+        <hint/>
+        <label>pathCount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 22:29:32</sys_created_on>
+        <sys_id>55a0581e47810210f3e2a3c9316d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>description</element>
+        <help/>
+        <hint/>
+        <label>description</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>776400da47410210f3e2a3c9316d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>os_type</element>
+        <help/>
+        <hint/>
+        <label>os_type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>bb6400da47410210f3e2a3c9316d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>paths</element>
+        <help/>
+        <hint/>
+        <label>paths</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>bb6400da47410210f3e2a3c9316d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>export_version</element>
+        <help/>
+        <hint/>
+        <label>export_version</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:36:11</sys_created_on>
+        <sys_id>ff6400da47410210f3e2a3c9316d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:36:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN1e0e3f8247410210f3e2a3c9316d4329,d60e3f8247410210f3e2a3c9316d432f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:08:14</sys_created_on>
+        <sys_id>1e0e3f8247410210f3e2a3c9316d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:08:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 21:08:14</sys_created_on>
+        <sys_id>d60e3f8247410210f3e2a3c9316d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 21:08:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0e483b8647010210f3e2a3c9316d4389"/>
+</record_update>

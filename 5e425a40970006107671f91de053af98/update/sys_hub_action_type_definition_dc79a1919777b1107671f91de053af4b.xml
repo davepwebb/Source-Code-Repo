@@ -6,14 +6,11 @@
         <action_template/>
         <active>true</active>
         <annotation/>
-        <attributes/>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Convert a comma-delimited list to an array</description>
-        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>convert_string_to_array_of_objects</internal_name>
         <label_cache>[{"name":"{{action.comma_delimited_string}}","label":"action➛comma_delimited_string","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[74374b51-4176-48b8-9917-c355fb64b9c7].list_of_objects}}","label":"step➛split step➛list_of_objects","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD68a431151affb11031950467146a8908","child_label":"list_of_objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"7d798e25-8bf6-421b-a8c8-007a4bbcf63e","uiUniqueId":"b72c2f67-ff24-4004-8d7e-e4c9363c657b"}}]</label_cache>
@@ -38,7 +35,7 @@
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_dc79a1919777b1107671f91de053af4b</sys_update_name>
         <sys_updated_by>webbda</sys_updated_by>
-        <sys_updated_on>2024-02-18 15:58:35</sys_updated_on>
+        <sys_updated_on>2024-02-24 22:26:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -900,14 +897,11 @@
         <action_status/>
         <action_template/>
         <annotation/>
-        <attributes/>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Convert a comma-delimited list to an array</description>
-        <flow_priority/>
         <internal_name>convert_string_to_array_of_objects</internal_name>
         <label_cache>[{"name":"{{action.comma_delimited_string}}","label":"action➛comma_delimited_string","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[74374b51-4176-48b8-9917-c355fb64b9c7].list_of_objects}}","label":"step➛split step➛list_of_objects","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD68a431151affb11031950467146a8908","child_label":"list_of_objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"7d798e25-8bf6-421b-a8c8-007a4bbcf63e","uiUniqueId":"b72c2f67-ff24-4004-8d7e-e4c9363c657b"}}]</label_cache>
         <master>true</master>
