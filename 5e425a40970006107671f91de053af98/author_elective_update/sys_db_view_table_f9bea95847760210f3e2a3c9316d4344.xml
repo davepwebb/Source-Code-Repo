@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>true</left_join>
+        <order>300</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:03:19</sys_created_on>
+        <sys_id>f9bea95847760210f3e2a3c9316d4344</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>change_request</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_db_view_table_f9bea95847760210f3e2a3c9316d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:06:52</sys_updated_on>
+        <table>change_request</table>
+        <variable_prefix>uchg</variable_prefix>
+        <view display_value="u_task_grmember">e87c1e1e47e60210f3e2a3c9316d43e3</view>
+        <where_clause>utask_number=uchg_number</where_clause>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Source Code Repo">5e425a40970006107671f91de053af98</application>
+        <file_path/>
+        <instance_id>f931e4471b22f5d09377eb9b2d4bcbad</instance_id>
+        <instance_name>dev219138</instance_name>
+        <name>sys_db_view_table_f9bea95847760210f3e2a3c9316d4344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>true</left_join><order>300</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-11 00:03:19</sys_created_on><sys_id>f9bea95847760210f3e2a3c9316d4344</sys_id><sys_mod_count>2</sys_mod_count><sys_name>change_request</sys_name><sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package><sys_policy/><sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope><sys_update_name>sys_db_view_table_f9bea95847760210f3e2a3c9316d4344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-11 00:06:52</sys_updated_on><table>change_request</table><variable_prefix>uchg</variable_prefix><view display_value="u_task_grmember">e87c1e1e47e60210f3e2a3c9316d43e3</view><where_clause>utask_number=uchg_number</where_clause></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>428142348</payload_hash>
+        <record_name>change_request</record_name>
+        <reverted_from/>
+        <source>b9b6567947200210f3e2a3c9316d43f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:06:53</sys_created_on>
+        <sys_id>55bfa1d847760210f3e2a3c9316d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190049e79620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:06:53</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>1dbfa1d89576021099b0c10aea0219aa</update_guid>
+        <update_guid_history>1dbfa1d89576021099b0c10aea0219aa:428142348,347f6d98e2760210c4b3638998208ab8:-1022489699,89eead58ed760210c3edc487a83cdc4d:-15026426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:21:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>0557774325ca4eac80fd4b70a3a2f5c4</sys_id>
+        <sys_metadata>f9bea95847760210f3e2a3c9316d4344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change_request</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_parent display_value="u_task_grmember">e87c1e1e47e60210f3e2a3c9316d43e3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_scope_delete display_value="">d801bd8b19d4472c88fcfd547578f909</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_f9bea95847760210f3e2a3c9316d4344</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_f9bea95847760210f3e2a3c9316d4344">55bfa1d847760210f3e2a3c9316d43ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:21:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
