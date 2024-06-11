@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description/>
+        <label>Control Inventory API</label>
+        <name>u_control_inventory_api</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 22:07:07</sys_created_on>
+        <sys_id>5cddd6a447fe4210f3e2a3c9316d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_control_inventory_api</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_db_view_5cddd6a447fe4210f3e2a3c9316d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 22:07:07</sys_updated_on>
+    </sys_db_view>
+</record_update>

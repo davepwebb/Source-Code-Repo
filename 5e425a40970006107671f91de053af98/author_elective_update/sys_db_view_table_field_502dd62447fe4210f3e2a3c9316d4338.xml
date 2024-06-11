@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="DELETE">
+        <field>task_id</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 22:04:18</sys_created_on>
+        <sys_id>502dd62447fe4210f3e2a3c9316d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_id</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_db_view_table_field_502dd62447fe4210f3e2a3c9316d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 22:04:18</sys_updated_on>
+        <table>asmt_assessment_instance</table>
+        <view_table display_value="asmt_assessment_instance">970c9ee047fe4210f3e2a3c9316d430c</view_table>
+    </sys_db_view_table_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Source Code Repo">5e425a40970006107671f91de053af98</application>
+        <file_path/>
+        <instance_id>f931e4471b22f5d09377eb9b2d4bcbad</instance_id>
+        <instance_name>dev219138</instance_name>
+        <name>sys_db_view_table_field_502dd62447fe4210f3e2a3c9316d4338</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field"><sys_db_view_table_field action="INSERT_OR_UPDATE"><field>task_id</field><sys_class_name>sys_db_view_table_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-11 22:04:18</sys_created_on><sys_id>502dd62447fe4210f3e2a3c9316d4338</sys_id><sys_mod_count>0</sys_mod_count><sys_name>task_id</sys_name><sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package><sys_policy/><sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope><sys_update_name>sys_db_view_table_field_502dd62447fe4210f3e2a3c9316d4338</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-11 22:04:18</sys_updated_on><table>asmt_assessment_instance</table><view_table display_value="asmt_assessment_instance">970c9ee047fe4210f3e2a3c9316d430c</view_table></sys_db_view_table_field></record_update>]]></payload>
+        <payload_hash>-586903639</payload_hash>
+        <record_name>task_id</record_name>
+        <reverted_from/>
+        <source>b9b6567947200210f3e2a3c9316d43f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 22:04:18</sys_created_on>
+        <sys_id>e33dde6447fe4210f3e2a3c9316d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19009549d820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 22:04:18</sys_updated_on>
+        <type>View Field</type>
+        <update_guid>2b3dde64e0fe4210162a169840b783c0</update_guid>
+        <update_guid_history>2b3dde64e0fe4210162a169840b783c0:-586903639</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 22:04:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table_field">sys_db_view_table_field</sys_db_object>
+        <sys_id>264638ea39b54c04a7a3542d77830181</sys_id>
+        <sys_metadata>502dd62447fe4210f3e2a3c9316d4338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_id</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_parent display_value="asmt_assessment_instance">970c9ee047fe4210f3e2a3c9316d430c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_scope_delete display_value="">d801bd8b19d4472c88fcfd547578f909</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_field_502dd62447fe4210f3e2a3c9316d4338</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_field_502dd62447fe4210f3e2a3c9316d4338">e33dde6447fe4210f3e2a3c9316d43c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 22:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
