@@ -6,6 +6,8 @@
         <action_template/>
         <active>true</active>
         <annotation>Find difference between two datetime objects</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -18,10 +20,12 @@ Return values are &lt;b&gt;always&lt;/b&gt; zero or positive integer values.
 
 Taken from Share: by Ola Norlander
 https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_difference_in_flow_designer?v=1&amp;t=PRODUCT_DETAILS</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>date_compare</internal_name>
         <label_cache>[{"name":"{{action.start_date_time}}","label":"action➛Start date time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛Start date time","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date_time","uiUniqueId":"46020df6-344b-44b8-83ee-2d4884c94307"}},{"name":"{{action.end_date_time}}","label":"action➛End date time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.end_date}}","label":"action➛End date time","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_minutes}}","label":"step➛Comparison➛Difference minutes","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"f725f79f-b878-4fef-8e6b-5e3de96b2da1"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_hours}}","label":"step➛Comparison➛Difference hours","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4a9dbbc0-d9d4-4f1e-bd18-1fa412b3248d"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_days}}","label":"step➛Comparison➛Difference days","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"c29f7793-e8fd-4bc5-8d7e-e95e97534ec0"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_weeks}}","label":"step➛Comparison➛Difference weeks","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"a5b9791f-25c6-4be4-85d3-2862cfae912e"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_months}}","label":"step➛Comparison➛Difference months","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"bb8cf3f7-4c15-44a2-8348-a73d1d97b4e6"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_years}}","label":"step➛Comparison➛Difference years","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"a36fa673-3c6d-4119-bf14-154cb95a38f0"}}]</label_cache>
         <master_snapshot>0b2916e297804a10e5a61c800153af54</master_snapshot>
+        <master_snapshot_digest/>
         <name>Date Compare</name>
         <natlang/>
         <outputs/>
@@ -41,8 +45,8 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5bb94ca29748c610e5a61c800153af98</sys_update_name>
-        <sys_updated_by>webbda</sys_updated_by>
-        <sys_updated_on>2024-02-24 22:26:10</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-30 16:00:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1160,7 +1164,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71_difference_months_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
         <url/>
@@ -1183,7 +1187,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71_difference_years_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
         <url/>
@@ -1206,7 +1210,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71_difference_days_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
         <url/>
@@ -1229,7 +1233,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71_difference_minutes_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
         <url/>
@@ -1252,7 +1256,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71_difference_weeks_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
         <url/>
@@ -1275,7 +1279,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cc13942a97c8c610e5a61c800153af71_difference_hours_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:18:13</sys_updated_on>
         <url/>
@@ -1464,12 +1468,12 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e427479b970002107671f91de053afa5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD2427479b8a00021008d4547d434a1ea5</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name>sys_complex_object_e427479b970002107671f91de053afa5</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-04 21:17:58</sys_updated_on>
         <type>complex_object_schema</type>
@@ -2200,7 +2204,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5bb94ca29748c610e5a61c800153af98_end_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
         <url/>
@@ -2223,7 +2227,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5bb94ca29748c610e5a61c800153af98_start_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
         <url/>
@@ -2248,7 +2252,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
         <url/>
@@ -2271,7 +2275,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 00:13:19</sys_updated_on>
         <url/>
@@ -2294,7 +2298,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98_diff_minutes_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
         <url/>
@@ -2317,7 +2321,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98_diff_hours_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
         <url/>
@@ -2340,7 +2344,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98_diff_days_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
         <url/>
@@ -2363,7 +2367,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98_diff_months_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
         <url/>
@@ -2386,7 +2390,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98_diff_weeks_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
         <url/>
@@ -2409,7 +2413,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5bb94ca29748c610e5a61c800153af98_diff_years_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 09:55:46</sys_updated_on>
         <url/>
@@ -2438,6 +2442,8 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <action_status/>
         <action_template/>
         <annotation>Find difference between two datetime objects</annotation>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -2450,6 +2456,7 @@ Return values are &lt;b&gt;always&lt;/b&gt; zero or positive integer values.
 
 Taken from Share: by Ola Norlander
 https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_difference_in_flow_designer?v=1&amp;t=PRODUCT_DETAILS</description>
+        <flow_priority/>
         <internal_name>date_compare</internal_name>
         <label_cache>[{"name":"{{action.start_date_time}}","label":"action➛Start date time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛Start date time","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date_time","uiUniqueId":"46020df6-344b-44b8-83ee-2d4884c94307"}},{"name":"{{action.end_date_time}}","label":"action➛End date time","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.end_date}}","label":"action➛End date time","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_minutes}}","label":"step➛Comparison➛Difference minutes","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"f725f79f-b878-4fef-8e6b-5e3de96b2da1"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_hours}}","label":"step➛Comparison➛Difference hours","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"4a9dbbc0-d9d4-4f1e-bd18-1fa412b3248d"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_days}}","label":"step➛Comparison➛Difference days","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"c29f7793-e8fd-4bc5-8d7e-e95e97534ec0"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_weeks}}","label":"step➛Comparison➛Difference weeks","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"a5b9791f-25c6-4be4-85d3-2862cfae912e"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_months}}","label":"step➛Comparison➛Difference months","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"bb8cf3f7-4c15-44a2-8348-a73d1d97b4e6"}},{"name":"{{step[c99e0f18-840b-416b-9d2a-0e1645ed108d].difference_years}}","label":"step➛Comparison➛Difference years","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"a36fa673-3c6d-4119-bf14-154cb95a38f0"}}]</label_cache>
         <master>true</master>
@@ -3576,7 +3583,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62_difference_months_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -3599,7 +3606,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62_difference_minutes_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
         <url/>
@@ -3622,7 +3629,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62_difference_weeks_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
         <url/>
@@ -3645,7 +3652,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62_difference_days_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
         <url/>
@@ -3668,7 +3675,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62_difference_years_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -3691,7 +3698,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_932916e297804a10e5a61c800153af62_difference_hours_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
         <url/>
@@ -4315,12 +4322,12 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a927879b970002107671f91de053afca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDe527879b4500021011da47d6081b6dca</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name>sys_complex_object_a927879b970002107671f91de053afca</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-04 21:18:01</sys_updated_on>
         <type>complex_object_schema</type>
@@ -4616,7 +4623,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0b2916e297804a10e5a61c800153af54_start_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
         <url/>
@@ -4639,7 +4646,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0b2916e297804a10e5a61c800153af54_end_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:43</sys_updated_on>
         <url/>
@@ -4664,7 +4671,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4687,7 +4694,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54_diff_days_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4710,7 +4717,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4733,7 +4740,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54_diff_minutes_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4756,7 +4763,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54_diff_weeks_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4779,7 +4786,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54_diff_months_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4802,7 +4809,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54_diff_hours_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>
@@ -4825,7 +4832,7 @@ https://developer.servicenow.com/connect.do#!/share/contents/6377513_date_differ
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0b2916e297804a10e5a61c800153af54_diff_years_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-02 10:01:44</sys_updated_on>
         <url/>

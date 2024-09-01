@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>dw_test_get_release_id</internal_name>
         <label_cache>[{"name":"{{action.release_id}}","label":"action➛Release ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].response_body}}","label":"step➛Script step (REST Step Equivalent - no IH)➛response_body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ece804ca-9547-42ef-96a4-73a131826f98"}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].status_code}}","label":"step➛Script step (REST Step Equivalent - no IH)➛status_code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"0278414b-6083-44ee-ba61-981333b74f5a"}},{"name":"{{step[bb912cb7-4105-4708-8c96-447fa93200b1].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>b706e55c47360210f3e2a3c9316d43c8</master_snapshot>
+        <master_snapshot_digest/>
         <name>DW Test Get Release ID</name>
         <natlang/>
         <outputs/>
@@ -27,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd6469d047360210f3e2a3c9316d43cd</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>DW Test Get Release ID</sys_name>
         <sys_overrides/>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
@@ -35,7 +39,7 @@
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_bd6469d047360210f3e2a3c9316d43cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
+        <sys_updated_on>2024-07-30 16:00:37</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -229,18 +233,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=06b4ed9847360210f3e2a3c9316d43f4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>06b4ed9847360210f3e2a3c9316d43f4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:18:53</sys_created_on>
-        <sys_id>52b429d847360210f3e2a3c9316d4354</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:18:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>instanceName</field>
         <id>06b4ed9847360210f3e2a3c9316d43f4</id>
         <sys_created_by>admin</sys_created_by>
@@ -263,18 +255,6 @@
         <sys_updated_on>2024-06-10 23:18:53</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_06b4ed9847360210f3e2a3c9316d43f4</table>
         <value>{{action.release_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>06b4ed9847360210f3e2a3c9316d43f4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:18:53</sys_created_on>
-        <sys_id>1ab429d847360210f3e2a3c9316d4354</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:18:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_06b4ed9847360210f3e2a3c9316d43f4^id=06b4ed9847360210f3e2a3c9316d43f4"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=06b4ed9847360210f3e2a3c9316d43f4"/>
@@ -628,11 +608,11 @@
         <sys_created_on>2024-06-10 23:20:08</sys_created_on>
         <sys_id>a405edd847360210f3e2a3c9316d431d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_body</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_06b4ed9847360210f3e2a3c9316d43f4_response_body_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:20:08</sys_updated_on>
         <url/>
@@ -651,11 +631,11 @@
         <sys_created_on>2024-06-10 23:20:08</sys_created_on>
         <sys_id>a805edd847360210f3e2a3c9316d4320</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_06b4ed9847360210f3e2a3c9316d43f4_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:20:08</sys_updated_on>
         <url/>
@@ -669,12 +649,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 23:23:37</sys_created_on>
         <sys_id>63c5215c47360210f3e2a3c9316d4380</sys_id>
@@ -3431,7 +3410,7 @@
         "change_request": []&#13;
     }&#13;
 }</value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3445,46 +3424,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
         <value>{"name":"root","children":[{"name":"result","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.sys_id","previewValue":"1896d6c447440e14f0b33aa4116d4371"},{"name":"correlation_id","children":[],"type":"string","jpath":"$.result.correlation_id","previewValue":""},{"name":"number","children":[],"type":"string","jpath":"$.result.number","previewValue":"RMG0691561"},{"name":"u_release_name","children":[],"type":"string","jpath":"$.result.u_release_name","previewValue":"OCR-2024-PR12-testOnly"},{"name":"state","children":[],"type":"string","jpath":"$.result.state","previewValue":"1"},{"name":"start_date","children":[],"type":"string","jpath":"$.result.start_date","previewValue":"2024-12-24 07:00:00"},{"name":"end_date","children":[],"type":"string","jpath":"$.result.end_date","previewValue":"2024-12-24 19:00:00"},{"name":"u_application","children":[{"name":"u_application_name","children":[],"type":"string","jpath":"$.result.u_application.u_application_name","previewValue":"INMAP Input Management Platform"},{"name":"u_nar_application_id","children":[],"type":"string","jpath":"$.result.u_application.u_nar_application_id","previewValue":"123520"},{"name":"name","children":[],"type":"string","jpath":"$.result.u_application.name","previewValue":"INMAP Input Management Platform"},{"name":"u_guid","children":[],"type":"string","jpath":"$.result.u_application.u_guid","previewValue":"123520-1"}],"type":"object","jpath":"$.result.u_application","previewValue":""},{"name":"u_previous_release","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_previous_release.sys_id","previewValue":"c77ad2b247e6f1901a8d40d5536d431c"},{"name":"number","children":[],"type":"string","jpath":"$.result.u_previous_release.number","previewValue":"RMG0685338"}],"type":"object","jpath":"$.result.u_previous_release","previewValue":""},{"name":"assignment_group","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.assignment_group.sys_id","previewValue":"33e4c4a0a8fac700d952707cf815f3f1"},{"name":"name","children":[],"type":"string","jpath":"$.result.assignment_group.name","previewValue":"SDLC_GOV_INMAP_PLATFORM"}],"type":"object","jpath":"$.result.assignment_group","previewValue":""},{"name":"assigned_to","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.assigned_to.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.assigned_to","previewValue":""},{"name":"u_source","children":[],"type":"string","jpath":"$.result.u_source","previewValue":"Internal"},{"name":"u_type","children":[{"name":"u_name","children":[],"type":"string","jpath":"$.result.u_type.u_name","previewValue":"Normal"}],"type":"object","jpath":"$.result.u_type","previewValue":""},{"name":"u_integration","children":[],"type":"string","jpath":"$.result.u_integration","previewValue":"1"},{"name":"u_integrated_with","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_integrated_with.sys_id","previewValue":""},{"name":"number","children":[],"type":"string","jpath":"$.result.u_integrated_with.number","previewValue":""}],"type":"object","jpath":"$.result.u_integrated_with","previewValue":""},{"name":"u_third_party_components","children":[],"type":"string","jpath":"$.result.u_third_party_components","previewValue":"no"},{"name":"u_ci_cd_pipeline","children":[{"name":"u_name","children":[],"type":"string","jpath":"$.result.u_ci_cd_pipeline.u_name","previewValue":""}],"type":"object","jpath":"$.result.u_ci_cd_pipeline","previewValue":""},{"name":"u_release_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_release_manager.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.u_release_manager","previewValue":""},{"name":"u_project_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_project_manager.user_name","previewValue":"serkan.saracuz@db.com"}],"type":"object","jpath":"$.result.u_project_manager","previewValue":""},{"name":"u_test_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_test_manager.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_test_manager","previewValue":""},{"name":"u_implementation_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_implementation_manager.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.u_implementation_manager","previewValue":""},{"name":"opened_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.opened_by.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.opened_by","previewValue":""},{"name":"opened_at","children":[],"type":"string","jpath":"$.result.opened_at","previewValue":"2024-01-25 15:25:31"},{"name":"closed_date","children":[],"type":"string","jpath":"$.result.closed_date","previewValue":""},{"name":"u_attestation","children":[],"type":"string","jpath":"$.result.u_attestation","previewValue":"false"},{"name":"work_notes","children":[],"type":"string","jpath":"$.result.work_notes","previewValue":""},{"name":"u_rmg_release","children":[{"name":"u_rmg_release_string","children":[],"type":"string","jpath":"$.result.u_rmg_release[*]","previewValue":""}],"type":"array.string","jpath":"$.result.u_rmg_release[*]","previewValue":""},{"name":"u_rmg_release_phase_task","children":[{"name":"u_rmg_release_phase_task_object","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].sys_id","previewValue":"41e69e0847440e14f0b33aa4116d43c1"},{"name":"number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].number","previewValue":"RCT2393354"},{"name":"description","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].description","previewValue":"Application runbook / Operating Instructions - agreed"},{"name":"state","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].state","previewValue":"3"},{"name":"approval","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].approval","previewValue":"not requested"},{"name":"u_validation","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_validation","previewValue":"5"},{"name":"u_control_status","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control_status","previewValue":"complete"},{"name":"assignment_group","children":[{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].assignment_group.name","previewValue":"SDLC_GOV_INMAP_PLATFORM"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].assignment_group","previewValue":""},{"name":"assigned_to","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].assigned_to.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].assigned_to","previewValue":""},{"name":"due_date","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].due_date","previewValue":"2024-12-24 19:00:00"},{"name":"u_statement","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_statement","previewValue":"Signed off from SDLC Platform at 25-Jan-2024 15:32:31 GMT by SDLC.Support@db.com. "},{"name":"u_sign_off","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_sign_off","previewValue":"9"},{"name":"u_sign_off_date","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_sign_off_date","previewValue":"2024-01-25 15:32:31"},{"name":"u_signed_off_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_signed_off_by.user_name","previewValue":"SDLC_governance_interface"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_signed_off_by","previewValue":""},{"name":"u_artefact_url","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact_url","previewValue":"https://dbunity.service-now.com/nav_to.do?uri=/kb_view.do%3Fsysparm_article%3DKB0347396"},{"name":"u_automation_failure_message","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_automation_failure_message","previewValue":""},{"name":"u_reference_control","children":[{"name":"u_sign_off","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_sign_off","previewValue":""},{"name":"u_sign_off_date","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_sign_off_date","previewValue":""},{"name":"u_signed_off_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_signed_off_by.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_signed_off_by","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control","previewValue":""},{"name":"u_control","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.sys_id","previewValue":"2c5fb96dad933100cb4d816f644ea685"},{"name":"u_number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_number","previewValue":"RCTLDEF0000096"},{"name":"u_artefact_type","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_artefact_type","previewValue":"Application Runbook"},{"name":"u_evidence_method","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_evidence_method","previewValue":"1"},{"name":"u_guidance","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_guidance","previewValue":"EVIDENCING FOR THIS CONTROL IS AUTOMATED. Do not Sign Off control manually\nPlease read https://confluence.intranet.db.com/x/ysZoG for further information.\nApplication Runbooks / Operating Instructions must be created / updated in ServiceNow for new applications. This is also preferred for existing. \n1. Ensure you have KCS1 role to draft and KCS3 to publish runbook Article\na. See attachment 'Revised Knowledge Training Deck V3.pptx' at bottom of the knowledge article (KB150937) with steps for  KCS1 role.\nhttps://dbunity.service-now.com/kb_view.do?sysparm_article=KB150937\n2. For steps on creating a runbook Knowledge Article for a runbook refer to Link: https://dbunity.service-now.com/nav_to.do?uri=redirect.do?kb_view.do?sysparm_article=KB0312452 \n3. For further guidance around the Knowledge Management process in Service Now refer to: https://dbunity.service-now.com/kb_view.do?sysparm_article=KB151647\n\n"},{"name":"u_help_url","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_help_url","previewValue":"https://confluence.intranet.db.com/x/ZoiHIQ"},{"name":"u_unique_for_app_or_rel","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_unique_for_app_or_rel","previewValue":"Application"},{"name":"u_max_review_period","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_max_review_period","previewValue":"0"},{"name":"u_expiry_period_unit","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_expiry_period_unit","previewValue":"Months"},{"name":"u_hotfix_release","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_hotfix_release","previewValue":"false"},{"name":"u_gcp_migration_relevant","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_gcp_migration_relevant","previewValue":""},{"name":"u_gcp_normal_relevant","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_gcp_normal_relevant","previewValue":""},{"name":"u_gcp_new_relevant","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_gcp_new_relevant","previewValue":""},{"name":"u_optional","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_optional","previewValue":"false"},{"name":"u_statement_mandatory","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_statement_mandatory","previewValue":"false"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_control","previewValue":""},{"name":"u_artefact","children":[{"name":"u_artefact_type","children":[{"name":"u_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact.u_artefact_type.u_name","previewValue":"Application Runbook"},{"name":"u_evidence_method","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact.u_artefact_type.u_evidence_method","previewValue":"1"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact.u_artefact_type","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact","previewValue":""},{"name":"u_rmg_control_validation_task","children":[{"name":"u_rmg_control_validation_task_string","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_rmg_control_validation_task[*]","previewValue":""}],"type":"array.string","jpath":"$.result.u_rmg_release_phase_task[*].u_rmg_control_validation_task[*]","previewValue":""},{"name":"u_db_managed_document","children":[{"name":"u_db_managed_document_object","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].sys_id","previewValue":""},{"name":"number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].number","previewValue":""},{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].name","previewValue":""},{"name":"description","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].description","previewValue":""},{"name":"classification","children":[{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].classification.name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].classification","previewValue":""},{"name":"state","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].state","previewValue":""},{"name":"dms_document_revision","children":[{"name":"dms_document_revision_object","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].sys_id","previewValue":""},{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].name","previewValue":""},{"name":"revision_number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].revision_number","previewValue":""},{"name":"author","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].author.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].author","previewValue":""},{"name":"owner","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].owner.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].owner","previewValue":""},{"name":"stage","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].stage","previewValue":""},{"name":"checked_out_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].checked_out_by.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].checked_out_by","previewValue":""},{"name":"note","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].note","previewValue":""},{"name":"sys_created_on","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].sys_created_on","previewValue":""},{"name":"attachment","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment.sys_id","previewValue":""},{"name":"file_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment.file_name","previewValue":""},{"name":"content_type","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment.content_type","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*]","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*]","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_release_phase_task[*]","previewValue":""},{"name":"cmdb_ci_appl","children":[{"name":"cmdb_ci_appl_object","children":[{"name":"u_guid","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].u_guid","previewValue":"123520-1"},{"name":"name","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].name","previewValue":"INMAP Input Management Platform"},{"name":"u_classification","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].u_classification","previewValue":"30"},{"name":"operational_status","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].operational_status","previewValue":"50"}],"type":"object","jpath":"$.result.cmdb_ci_appl[*]","previewValue":""}],"type":"array.object","jpath":"$.result.cmdb_ci_appl[*]","previewValue":""},{"name":"u_rmg_application_domain","children":[{"name":"u_rmg_application_domain_object","children":[{"name":"u_path","children":[],"type":"string","jpath":"$.result.u_rmg_application_domain[*].u_path","previewValue":"Application/Occurrence"}],"type":"object","jpath":"$.result.u_rmg_application_domain[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_application_domain[*]","previewValue":""},{"name":"change_request","children":[{"name":"change_request_string","children":[],"type":"string","jpath":"$.result.change_request[*]","previewValue":""}],"type":"array.string","jpath":"$.result.change_request[*]","previewValue":""}],"type":"object","jpath":"$.result","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_63c5215c47360210f3e2a3c9316d4380^id=63c5215c47360210f3e2a3c9316d4380"/>
-    <sys_element_mapping action="delete_multiple" query="id=63c5215c47360210f3e2a3c9316d4380"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>63c5215c47360210f3e2a3c9316d4380</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:23:37</sys_created_on>
-        <sys_id>e7c5215c47360210f3e2a3c9316d438b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>63c5215c47360210f3e2a3c9316d4380</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:23:37</sys_created_on>
-        <sys_id>27c5215c47360210f3e2a3c9316d438b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[1e461b83-3c78-400f-8735-700b6654c3fa].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>63c5215c47360210f3e2a3c9316d4380</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:23:37</sys_created_on>
-        <sys_id>63c5215c47360210f3e2a3c9316d438b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=63c5215c47360210f3e2a3c9316d4380"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=63c5215c47360210f3e2a3c9316d4380"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=63c5215c47360210f3e2a3c9316d4380^sys_idNOT INa7c5215c47360210f3e2a3c9316d4385"/>
@@ -3609,11 +3551,11 @@
         <sys_created_on>2024-06-10 23:23:37</sys_created_on>
         <sys_id>a7c5215c47360210f3e2a3c9316d4388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_63c5215c47360210f3e2a3c9316d4380_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
         <url/>
@@ -4089,7 +4031,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=197461d847360210f3e2a3c9316d43ef^sys_idNOT IN23c5215c47360210f3e2a3c9316d43a2"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-06-11 00:17:44">197461d847360210f3e2a3c9316d43ef</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-06-10 16:17:44">197461d847360210f3e2a3c9316d43ef</action_status_metadata_id>
         <condition>{{step[1e461b83-3c78-400f-8735-700b6654c3fa].status_code}}=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Release ID Invalid</label>
@@ -4116,11 +4058,11 @@
         <sys_created_on>2024-06-10 23:17:44</sys_created_on>
         <sys_id>d57461d847360210f3e2a3c9316d43eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Release ID</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_bd6469d047360210f3e2a3c9316d43cd_release_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:17:44</sys_updated_on>
         <url/>
@@ -4141,11 +4083,11 @@
         <sys_created_on>2024-06-10 23:23:37</sys_created_on>
         <sys_id>23c5215c47360210f3e2a3c9316d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>OutputObject</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_bd6469d047360210f3e2a3c9316d43cd_outputobject_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
         <url/>
@@ -4164,11 +4106,11 @@
         <sys_created_on>2024-06-10 23:18:53</sys_created_on>
         <sys_id>5eb429d847360210f3e2a3c9316d435c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_bd6469d047360210f3e2a3c9316d43cd___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:18:53</sys_updated_on>
         <url/>
@@ -4187,11 +4129,11 @@
         <sys_created_on>2024-06-10 23:18:53</sys_created_on>
         <sys_id>9ab429d847360210f3e2a3c9316d437b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_bd6469d047360210f3e2a3c9316d43cd___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:18:53</sys_updated_on>
         <url/>
@@ -4210,11 +4152,11 @@
         <sys_created_on>2024-06-10 23:23:37</sys_created_on>
         <sys_id>e3c5215c47360210f3e2a3c9316d4398</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Rest Step Code</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_bd6469d047360210f3e2a3c9316d43cd_reststepcode_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:23:37</sys_updated_on>
         <url/>
@@ -4243,11 +4185,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>dw_test_get_release_id</internal_name>
         <label_cache>[{"name":"{{action.release_id}}","label":"action➛Release ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].response_body}}","label":"step➛Script step (REST Step Equivalent - no IH)➛response_body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ece804ca-9547-42ef-96a4-73a131826f98"}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].status_code}}","label":"step➛Script step (REST Step Equivalent - no IH)➛status_code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"0278414b-6083-44ee-ba61-981333b74f5a"}},{"name":"{{step[bb912cb7-4105-4708-8c96-447fa93200b1].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
@@ -4450,18 +4395,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3b06e55c47360210f3e2a3c9316d43d1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3b06e55c47360210f3e2a3c9316d43d1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:24:44</sys_created_on>
-        <sys_id>8c16e55c47360210f3e2a3c9316d43e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:24:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>instanceName</field>
         <id>3b06e55c47360210f3e2a3c9316d43d1</id>
         <sys_created_by>admin</sys_created_by>
@@ -4484,18 +4417,6 @@
         <sys_updated_on>2024-06-10 23:24:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3b06e55c47360210f3e2a3c9316d43d1</table>
         <value>{{action.release_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3b06e55c47360210f3e2a3c9316d43d1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:24:44</sys_created_on>
-        <sys_id>4016e55c47360210f3e2a3c9316d43e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:24:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3b06e55c47360210f3e2a3c9316d43d1^id=3b06e55c47360210f3e2a3c9316d43d1"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3b06e55c47360210f3e2a3c9316d43d1"/>
@@ -4849,11 +4770,11 @@
         <sys_created_on>2024-06-10 23:24:44</sys_created_on>
         <sys_id>4016e55c47360210f3e2a3c9316d43df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_body</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3b06e55c47360210f3e2a3c9316d43d1_response_body_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:44</sys_updated_on>
         <url/>
@@ -4872,11 +4793,11 @@
         <sys_created_on>2024-06-10 23:24:44</sys_created_on>
         <sys_id>4416e55c47360210f3e2a3c9316d43e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3b06e55c47360210f3e2a3c9316d43d1_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:44</sys_updated_on>
         <url/>
@@ -4890,12 +4811,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 23:24:44</sys_created_on>
         <sys_id>4c16e55c47360210f3e2a3c9316d43e9</sys_id>
@@ -7652,7 +7572,7 @@
         "change_request": []&#13;
     }&#13;
 }</value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7666,46 +7586,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
         <value>{"name":"root","children":[{"name":"result","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.sys_id","previewValue":"1896d6c447440e14f0b33aa4116d4371"},{"name":"correlation_id","children":[],"type":"string","jpath":"$.result.correlation_id","previewValue":""},{"name":"number","children":[],"type":"string","jpath":"$.result.number","previewValue":"RMG0691561"},{"name":"u_release_name","children":[],"type":"string","jpath":"$.result.u_release_name","previewValue":"OCR-2024-PR12-testOnly"},{"name":"state","children":[],"type":"string","jpath":"$.result.state","previewValue":"1"},{"name":"start_date","children":[],"type":"string","jpath":"$.result.start_date","previewValue":"2024-12-24 07:00:00"},{"name":"end_date","children":[],"type":"string","jpath":"$.result.end_date","previewValue":"2024-12-24 19:00:00"},{"name":"u_application","children":[{"name":"u_application_name","children":[],"type":"string","jpath":"$.result.u_application.u_application_name","previewValue":"INMAP Input Management Platform"},{"name":"u_nar_application_id","children":[],"type":"string","jpath":"$.result.u_application.u_nar_application_id","previewValue":"123520"},{"name":"name","children":[],"type":"string","jpath":"$.result.u_application.name","previewValue":"INMAP Input Management Platform"},{"name":"u_guid","children":[],"type":"string","jpath":"$.result.u_application.u_guid","previewValue":"123520-1"}],"type":"object","jpath":"$.result.u_application","previewValue":""},{"name":"u_previous_release","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_previous_release.sys_id","previewValue":"c77ad2b247e6f1901a8d40d5536d431c"},{"name":"number","children":[],"type":"string","jpath":"$.result.u_previous_release.number","previewValue":"RMG0685338"}],"type":"object","jpath":"$.result.u_previous_release","previewValue":""},{"name":"assignment_group","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.assignment_group.sys_id","previewValue":"33e4c4a0a8fac700d952707cf815f3f1"},{"name":"name","children":[],"type":"string","jpath":"$.result.assignment_group.name","previewValue":"SDLC_GOV_INMAP_PLATFORM"}],"type":"object","jpath":"$.result.assignment_group","previewValue":""},{"name":"assigned_to","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.assigned_to.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.assigned_to","previewValue":""},{"name":"u_source","children":[],"type":"string","jpath":"$.result.u_source","previewValue":"Internal"},{"name":"u_type","children":[{"name":"u_name","children":[],"type":"string","jpath":"$.result.u_type.u_name","previewValue":"Normal"}],"type":"object","jpath":"$.result.u_type","previewValue":""},{"name":"u_integration","children":[],"type":"string","jpath":"$.result.u_integration","previewValue":"1"},{"name":"u_integrated_with","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_integrated_with.sys_id","previewValue":""},{"name":"number","children":[],"type":"string","jpath":"$.result.u_integrated_with.number","previewValue":""}],"type":"object","jpath":"$.result.u_integrated_with","previewValue":""},{"name":"u_third_party_components","children":[],"type":"string","jpath":"$.result.u_third_party_components","previewValue":"no"},{"name":"u_ci_cd_pipeline","children":[{"name":"u_name","children":[],"type":"string","jpath":"$.result.u_ci_cd_pipeline.u_name","previewValue":""}],"type":"object","jpath":"$.result.u_ci_cd_pipeline","previewValue":""},{"name":"u_release_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_release_manager.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.u_release_manager","previewValue":""},{"name":"u_project_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_project_manager.user_name","previewValue":"serkan.saracuz@db.com"}],"type":"object","jpath":"$.result.u_project_manager","previewValue":""},{"name":"u_test_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_test_manager.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_test_manager","previewValue":""},{"name":"u_implementation_manager","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_implementation_manager.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.u_implementation_manager","previewValue":""},{"name":"opened_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.opened_by.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.opened_by","previewValue":""},{"name":"opened_at","children":[],"type":"string","jpath":"$.result.opened_at","previewValue":"2024-01-25 15:25:31"},{"name":"closed_date","children":[],"type":"string","jpath":"$.result.closed_date","previewValue":""},{"name":"u_attestation","children":[],"type":"string","jpath":"$.result.u_attestation","previewValue":"false"},{"name":"work_notes","children":[],"type":"string","jpath":"$.result.work_notes","previewValue":""},{"name":"u_rmg_release","children":[{"name":"u_rmg_release_string","children":[],"type":"string","jpath":"$.result.u_rmg_release[*]","previewValue":""}],"type":"array.string","jpath":"$.result.u_rmg_release[*]","previewValue":""},{"name":"u_rmg_release_phase_task","children":[{"name":"u_rmg_release_phase_task_object","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].sys_id","previewValue":"41e69e0847440e14f0b33aa4116d43c1"},{"name":"number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].number","previewValue":"RCT2393354"},{"name":"description","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].description","previewValue":"Application runbook / Operating Instructions - agreed"},{"name":"state","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].state","previewValue":"3"},{"name":"approval","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].approval","previewValue":"not requested"},{"name":"u_validation","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_validation","previewValue":"5"},{"name":"u_control_status","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control_status","previewValue":"complete"},{"name":"assignment_group","children":[{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].assignment_group.name","previewValue":"SDLC_GOV_INMAP_PLATFORM"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].assignment_group","previewValue":""},{"name":"assigned_to","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].assigned_to.user_name","previewValue":"alexandra.bratu@db.com"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].assigned_to","previewValue":""},{"name":"due_date","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].due_date","previewValue":"2024-12-24 19:00:00"},{"name":"u_statement","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_statement","previewValue":"Signed off from SDLC Platform at 25-Jan-2024 15:32:31 GMT by SDLC.Support@db.com. "},{"name":"u_sign_off","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_sign_off","previewValue":"9"},{"name":"u_sign_off_date","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_sign_off_date","previewValue":"2024-01-25 15:32:31"},{"name":"u_signed_off_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_signed_off_by.user_name","previewValue":"SDLC_governance_interface"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_signed_off_by","previewValue":""},{"name":"u_artefact_url","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact_url","previewValue":"https://dbunity.service-now.com/nav_to.do?uri=/kb_view.do%3Fsysparm_article%3DKB0347396"},{"name":"u_automation_failure_message","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_automation_failure_message","previewValue":""},{"name":"u_reference_control","children":[{"name":"u_sign_off","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_sign_off","previewValue":""},{"name":"u_sign_off_date","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_sign_off_date","previewValue":""},{"name":"u_signed_off_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_signed_off_by.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control.u_signed_off_by","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_reference_control","previewValue":""},{"name":"u_control","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.sys_id","previewValue":"2c5fb96dad933100cb4d816f644ea685"},{"name":"u_number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_number","previewValue":"RCTLDEF0000096"},{"name":"u_artefact_type","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_artefact_type","previewValue":"Application Runbook"},{"name":"u_evidence_method","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_evidence_method","previewValue":"1"},{"name":"u_guidance","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_guidance","previewValue":"EVIDENCING FOR THIS CONTROL IS AUTOMATED. Do not Sign Off control manually\nPlease read https://confluence.intranet.db.com/x/ysZoG for further information.\nApplication Runbooks / Operating Instructions must be created / updated in ServiceNow for new applications. This is also preferred for existing. \n1. Ensure you have KCS1 role to draft and KCS3 to publish runbook Article\na. See attachment 'Revised Knowledge Training Deck V3.pptx' at bottom of the knowledge article (KB150937) with steps for  KCS1 role.\nhttps://dbunity.service-now.com/kb_view.do?sysparm_article=KB150937\n2. For steps on creating a runbook Knowledge Article for a runbook refer to Link: https://dbunity.service-now.com/nav_to.do?uri=redirect.do?kb_view.do?sysparm_article=KB0312452 \n3. For further guidance around the Knowledge Management process in Service Now refer to: https://dbunity.service-now.com/kb_view.do?sysparm_article=KB151647\n\n"},{"name":"u_help_url","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_help_url","previewValue":"https://confluence.intranet.db.com/x/ZoiHIQ"},{"name":"u_unique_for_app_or_rel","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_unique_for_app_or_rel","previewValue":"Application"},{"name":"u_max_review_period","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_max_review_period","previewValue":"0"},{"name":"u_expiry_period_unit","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_expiry_period_unit","previewValue":"Months"},{"name":"u_hotfix_release","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_hotfix_release","previewValue":"false"},{"name":"u_gcp_migration_relevant","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_gcp_migration_relevant","previewValue":""},{"name":"u_gcp_normal_relevant","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_gcp_normal_relevant","previewValue":""},{"name":"u_gcp_new_relevant","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_gcp_new_relevant","previewValue":""},{"name":"u_optional","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_optional","previewValue":"false"},{"name":"u_statement_mandatory","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_control.u_statement_mandatory","previewValue":"false"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_control","previewValue":""},{"name":"u_artefact","children":[{"name":"u_artefact_type","children":[{"name":"u_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact.u_artefact_type.u_name","previewValue":"Application Runbook"},{"name":"u_evidence_method","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact.u_artefact_type.u_evidence_method","previewValue":"1"}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact.u_artefact_type","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_artefact","previewValue":""},{"name":"u_rmg_control_validation_task","children":[{"name":"u_rmg_control_validation_task_string","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_rmg_control_validation_task[*]","previewValue":""}],"type":"array.string","jpath":"$.result.u_rmg_release_phase_task[*].u_rmg_control_validation_task[*]","previewValue":""},{"name":"u_db_managed_document","children":[{"name":"u_db_managed_document_object","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].sys_id","previewValue":""},{"name":"number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].number","previewValue":""},{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].name","previewValue":""},{"name":"description","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].description","previewValue":""},{"name":"classification","children":[{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].classification.name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].classification","previewValue":""},{"name":"state","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].state","previewValue":""},{"name":"dms_document_revision","children":[{"name":"dms_document_revision_object","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].sys_id","previewValue":""},{"name":"name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].name","previewValue":""},{"name":"revision_number","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].revision_number","previewValue":""},{"name":"author","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].author.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].author","previewValue":""},{"name":"owner","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].owner.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].owner","previewValue":""},{"name":"stage","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].stage","previewValue":""},{"name":"checked_out_by","children":[{"name":"user_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].checked_out_by.user_name","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].checked_out_by","previewValue":""},{"name":"note","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].note","previewValue":""},{"name":"sys_created_on","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].sys_created_on","previewValue":""},{"name":"attachment","children":[{"name":"sys_id","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment.sys_id","previewValue":""},{"name":"file_name","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment.file_name","previewValue":""},{"name":"content_type","children":[],"type":"string","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment.content_type","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*].attachment","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*].dms_document_revision[*]","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_release_phase_task[*].u_db_managed_document[*]","previewValue":""}],"type":"object","jpath":"$.result.u_rmg_release_phase_task[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_release_phase_task[*]","previewValue":""},{"name":"cmdb_ci_appl","children":[{"name":"cmdb_ci_appl_object","children":[{"name":"u_guid","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].u_guid","previewValue":"123520-1"},{"name":"name","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].name","previewValue":"INMAP Input Management Platform"},{"name":"u_classification","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].u_classification","previewValue":"30"},{"name":"operational_status","children":[],"type":"string","jpath":"$.result.cmdb_ci_appl[*].operational_status","previewValue":"50"}],"type":"object","jpath":"$.result.cmdb_ci_appl[*]","previewValue":""}],"type":"array.object","jpath":"$.result.cmdb_ci_appl[*]","previewValue":""},{"name":"u_rmg_application_domain","children":[{"name":"u_rmg_application_domain_object","children":[{"name":"u_path","children":[],"type":"string","jpath":"$.result.u_rmg_application_domain[*].u_path","previewValue":"Application/Occurrence"}],"type":"object","jpath":"$.result.u_rmg_application_domain[*]","previewValue":""}],"type":"array.object","jpath":"$.result.u_rmg_application_domain[*]","previewValue":""},{"name":"change_request","children":[{"name":"change_request_string","children":[],"type":"string","jpath":"$.result.change_request[*]","previewValue":""}],"type":"array.string","jpath":"$.result.change_request[*]","previewValue":""}],"type":"object","jpath":"$.result","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4c16e55c47360210f3e2a3c9316d43e9^id=4c16e55c47360210f3e2a3c9316d43e9"/>
-    <sys_element_mapping action="delete_multiple" query="id=4c16e55c47360210f3e2a3c9316d43e9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>4c16e55c47360210f3e2a3c9316d43e9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:24:45</sys_created_on>
-        <sys_id>4016e55c47360210f3e2a3c9316d43f3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>4c16e55c47360210f3e2a3c9316d43e9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:24:45</sys_created_on>
-        <sys_id>8c16e55c47360210f3e2a3c9316d43f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[1e461b83-3c78-400f-8735-700b6654c3fa].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>4c16e55c47360210f3e2a3c9316d43e9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-10 23:24:45</sys_created_on>
-        <sys_id>c816e55c47360210f3e2a3c9316d43f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=4c16e55c47360210f3e2a3c9316d43e9"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=4c16e55c47360210f3e2a3c9316d43e9"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=4c16e55c47360210f3e2a3c9316d43e9^sys_idNOT IN4416e55c47360210f3e2a3c9316d43ed"/>
@@ -7830,11 +7713,11 @@
         <sys_created_on>2024-06-10 23:24:45</sys_created_on>
         <sys_id>4416e55c47360210f3e2a3c9316d43f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_4c16e55c47360210f3e2a3c9316d43e9_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
         <url/>
@@ -8310,7 +8193,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c416295c47360210f3e2a3c9316d4319^sys_idNOT IN8816295c47360210f3e2a3c9316d4319"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-06-11 00:24:45">c416295c47360210f3e2a3c9316d4319</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-06-10 16:24:45">c416295c47360210f3e2a3c9316d4319</action_status_metadata_id>
         <condition>{{step[1e461b83-3c78-400f-8735-700b6654c3fa].status_code}}=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Release ID Invalid</label>
@@ -8337,11 +8220,11 @@
         <sys_created_on>2024-06-10 23:24:44</sys_created_on>
         <sys_id>3b06e55c47360210f3e2a3c9316d43cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Release ID</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b706e55c47360210f3e2a3c9316d43c8_release_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:44</sys_updated_on>
         <url/>
@@ -8362,11 +8245,11 @@
         <sys_created_on>2024-06-10 23:24:45</sys_created_on>
         <sys_id>4016295c47360210f3e2a3c9316d4301</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Rest Step Code</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b706e55c47360210f3e2a3c9316d43c8_reststepcode_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
         <url/>
@@ -8385,11 +8268,11 @@
         <sys_created_on>2024-06-10 23:24:45</sys_created_on>
         <sys_id>4c16295c47360210f3e2a3c9316d4312</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b706e55c47360210f3e2a3c9316d43c8___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
         <url/>
@@ -8408,11 +8291,11 @@
         <sys_created_on>2024-06-10 23:24:45</sys_created_on>
         <sys_id>8416e55c47360210f3e2a3c9316d43fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b706e55c47360210f3e2a3c9316d43c8___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
         <url/>
@@ -8431,11 +8314,11 @@
         <sys_created_on>2024-06-10 23:24:45</sys_created_on>
         <sys_id>8816e55c47360210f3e2a3c9316d43f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>OutputObject</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b706e55c47360210f3e2a3c9316d43c8_outputobject_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-10 23:24:45</sys_updated_on>
         <url/>
