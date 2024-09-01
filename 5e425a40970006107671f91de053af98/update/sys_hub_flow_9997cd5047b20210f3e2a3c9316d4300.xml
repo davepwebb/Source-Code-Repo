@@ -16,7 +16,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>dw_test_inbound_saas_email</internal_name>
-        <label_cache>[{"name":"710acfab-a7eb-4404-9045-9555a2c2f826.record.approval_user","label":"18 - Create Record➛Group approval Record➛Approval user","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"approval_user","usedInstances":{"5c1bb956-d737-4d15-b2f9-8b8c145c559b":["approval_conditions"]}},{"name":"e7d621e2-1209-4e22-a166-02f2dacee00c.record.approver","label":"17 - Create Record➛Approval Record➛Approver","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sysapproval_approver","column_name":"approver","usedInstances":{"5c1bb956-d737-4d15-b2f9-8b8c145c559b":["approval_conditions"]}},{"name":"Inbound Email_1.inbound_email.subject","label":"Trigger - Inbound Email➛Email Record➛Subject","reference":"","reference_display":"Subject","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"subject"},{"name":"Inbound Email_1.inbound_email.user_id.email","label":"Trigger - Inbound Email➛Email Record➛User ID➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"flow_variable.error","label":"Flow Variables➛Error","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"bce8f5c0-00b5-4083-b8c8-02961d797677"}},{"name":"flow_variable.response","label":"Flow Variables➛Response","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4374d6fa-ce1a-41b8-ad0a-128baeefdcf3"}},{"name":"3764ddd4-d663-4845-b6c2-ad60987674dd.item.attachment","label":"3 - For Each➛Email Attachment Record➛Attachment","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","parent_table_name":"sys_email_attachment","column_name":"attachment","usedInstances":{"b3cb51f6-15f6-4f20-8723-d2b941b632c1":["attachment_record"]}},{"name":"b084a0a1-fead-461d-a217-3739ff03122b.Record.data_source","label":"27 - Look Up Record➛Scheduled Data Import Record➛Data source","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","parent_table_name":"scheduled_import_set","column_name":"data_source"},{"name":"b084a0a1-fead-461d-a217-3739ff03122b.Record","label":"27 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"da4650d5-c213-4d72-aef8-59ccbe45d905.email_attachments","label":"2 - Look Up Email Attachments➛Email Attachment Records","reference":"sys_email_attachment","reference_display":"Email Attachment Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3764ddd4-d663-4845-b6c2-ad60987674dd.item.attachment.file_name","label":"3 - For Each➛Email Attachment Record➛Attachment➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","parent_table_name":"sys_attachment","column_name":"file_name"},{"name":"3764ddd4-d663-4845-b6c2-ad60987674dd.item.file_name","label":"3 - For Each➛Email Attachment Record➛File Name","reference":"","reference_display":"File Name","type":"string","base_type":"string","parent_table_name":"sys_email_attachment","column_name":"file_name"},{"name":"1e4c3e78-c32c-4feb-bc18-63bf24138bae.answer.result_elements.u_security_group","label":"7 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Security Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_f8464ddc47720210f3e2a3c9316d43b4","column_name":"u_security_group"},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger - Inbound Email➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"Inbound Email_1.inbound_email.user_id","label":"Trigger - Inbound Email➛Email Record➛User ID","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_email","column_name":"user_id"},{"name":"d5705641-bd0b-4e2b-b2c2-e6b2b76bf097.error_message","label":"11 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"b084a0a1-fead-461d-a217-3739ff03122b.Record.sys_id","label":"27 - Look Up Record➛Scheduled Data Import Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"scheduled_import_set","column_name":"sys_id"},{"name":"1e4c3e78-c32c-4feb-bc18-63bf24138bae.answer.result_elements.u_eyes","label":"7 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛4-Eyes","reference":"","reference_display":"4-Eyes","type":"boolean","base_type":"boolean","parent_table_name":"var__m_sys_decision_multi_result_element_f8464ddc47720210f3e2a3c9316d43b4","column_name":"u_eyes","usedInstances":{"5270a229-12a3-4c00-a6c3-a87d81a23485":["condition"]}},{"name":"Inbound Email_1.inbound_email.user_id.sys_id","label":"Trigger - Inbound Email➛Email Record➛User ID➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"3ea24088-dd12-41b7-ba8c-3225b40ff627":["requested_for","opened_by"]}},{"name":"Inbound Email_1.inbound_email.sys_created_on","label":"Trigger - Inbound Email➛Email Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sys_email","column_name":"sys_created_on","usedInstances":{"3ea24088-dd12-41b7-ba8c-3225b40ff627":["due_date"]}},{"name":"Inbound Email_1.user.name","label":"Trigger - Inbound Email➛User Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"3ea24088-dd12-41b7-ba8c-3225b40ff627":["description"]}},{"name":"3ea24088-dd12-41b7-ba8c-3225b40ff627.record","label":"15 - Create Record➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference","usedInstances":{"b3cb51f6-15f6-4f20-8723-d2b941b632c1":["target_record"],"e7d621e2-1209-4e22-a166-02f2dacee00c":["sysapproval"],"710acfab-a7eb-4404-9045-9555a2c2f826":["parent"],"863a4f20-62ea-43c4-a9c9-0442d81df5c9":["record"],"5c1bb956-d737-4d15-b2f9-8b8c145c559b":["record"],"e39fb090-5696-4650-a64a-2bcf0405d869":["record"],"4e0ed5f0-4cd9-4b09-9c30-051e3d17a6f6":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c1bb956-d737-4d15-b2f9-8b8c145c559b.approval_state","label":"20 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"6f019bdb-0f46-4bb7-8804-d743adbab58b":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5c1bb956-d737-4d15-b2f9-8b8c145c559b.approval_state","label":"20 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"6f019bdb-0f46-4bb7-8804-d743adbab58b":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ea24088-dd12-41b7-ba8c-3225b40ff627.record","label":"15 - Create Record➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference","usedInstances":{"b3cb51f6-15f6-4f20-8723-d2b941b632c1":["target_record"],"e7d621e2-1209-4e22-a166-02f2dacee00c":["sysapproval"],"710acfab-a7eb-4404-9045-9555a2c2f826":["parent"],"863a4f20-62ea-43c4-a9c9-0442d81df5c9":["record"],"5c1bb956-d737-4d15-b2f9-8b8c145c559b":["record"],"e39fb090-5696-4650-a64a-2bcf0405d869":["record"],"4e0ed5f0-4cd9-4b09-9c30-051e3d17a6f6":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.user.name","label":"Trigger - Inbound Email➛User Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"3ea24088-dd12-41b7-ba8c-3225b40ff627":["description"]}},{"name":"Inbound Email_1.inbound_email.sys_created_on","label":"Trigger - Inbound Email➛Email Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sys_email","column_name":"sys_created_on","usedInstances":{"3ea24088-dd12-41b7-ba8c-3225b40ff627":["due_date"]}},{"name":"Inbound Email_1.inbound_email.user_id.sys_id","label":"Trigger - Inbound Email➛Email Record➛User ID➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"3ea24088-dd12-41b7-ba8c-3225b40ff627":["requested_for","opened_by"]}},{"name":"1e4c3e78-c32c-4feb-bc18-63bf24138bae.answer.result_elements.u_eyes","label":"7 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛4-Eyes","reference":"","reference_display":"4-Eyes","type":"boolean","base_type":"boolean","parent_table_name":"var__m_sys_decision_multi_result_element_f8464ddc47720210f3e2a3c9316d43b4","column_name":"u_eyes","usedInstances":{"5270a229-12a3-4c00-a6c3-a87d81a23485":["condition"]}},{"name":"b084a0a1-fead-461d-a217-3739ff03122b.Record.sys_id","label":"33 - Look Up Record➛Scheduled Data Import Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"scheduled_import_set","column_name":"sys_id"},{"name":"d5705641-bd0b-4e2b-b2c2-e6b2b76bf097.error_message","label":"11 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"Inbound Email_1.inbound_email.user_id","label":"Trigger - Inbound Email➛Email Record➛User ID","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_email","column_name":"user_id"},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger - Inbound Email➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"1e4c3e78-c32c-4feb-bc18-63bf24138bae.answer.result_elements.u_security_group","label":"7 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Security Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_f8464ddc47720210f3e2a3c9316d43b4","column_name":"u_security_group"},{"name":"3764ddd4-d663-4845-b6c2-ad60987674dd.item.file_name","label":"3 - For Each➛Email Attachment Record➛File Name","reference":"","reference_display":"File Name","type":"string","base_type":"string","parent_table_name":"sys_email_attachment","column_name":"file_name"},{"name":"3764ddd4-d663-4845-b6c2-ad60987674dd.item.attachment.file_name","label":"3 - For Each➛Email Attachment Record➛Attachment➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","parent_table_name":"sys_attachment","column_name":"file_name"},{"name":"da4650d5-c213-4d72-aef8-59ccbe45d905.email_attachments","label":"2 - Look Up Email Attachments➛Email Attachment Records","reference":"sys_email_attachment","reference_display":"Email Attachment Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"b084a0a1-fead-461d-a217-3739ff03122b.Record","label":"33 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b084a0a1-fead-461d-a217-3739ff03122b.Record.data_source","label":"33 - Look Up Record➛Scheduled Data Import Record➛Data source","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","parent_table_name":"scheduled_import_set","column_name":"data_source"},{"name":"3764ddd4-d663-4845-b6c2-ad60987674dd.item.attachment","label":"3 - For Each➛Email Attachment Record➛Attachment","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","parent_table_name":"sys_email_attachment","column_name":"attachment","usedInstances":{"b3cb51f6-15f6-4f20-8723-d2b941b632c1":["attachment_record"]}},{"name":"flow_variable.response","label":"Flow Variables➛Response","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4374d6fa-ce1a-41b8-ad0a-128baeefdcf3"}},{"name":"flow_variable.error","label":"Flow Variables➛Error","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"bce8f5c0-00b5-4083-b8c8-02961d797677"}},{"name":"Inbound Email_1.inbound_email.user_id.email","label":"Trigger - Inbound Email➛Email Record➛User ID➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Inbound Email_1.inbound_email.subject","label":"Trigger - Inbound Email➛Email Record➛Subject","reference":"","reference_display":"Subject","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"subject"},{"name":"e7d621e2-1209-4e22-a166-02f2dacee00c.record.approver","label":"17 - Create Record➛Approval Record➛Approver","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sysapproval_approver","column_name":"approver","usedInstances":{"5c1bb956-d737-4d15-b2f9-8b8c145c559b":["approval_conditions"]}},{"name":"710acfab-a7eb-4404-9045-9555a2c2f826.record.approval_user","label":"18 - Create Record➛Group approval Record➛Approval user","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sysapproval_group","column_name":"approval_user","usedInstances":{"5c1bb956-d737-4d15-b2f9-8b8c145c559b":["approval_conditions"]}},{"name":"1e4c3e78-c32c-4feb-bc18-63bf24138bae.table_name","label":"7 - Make a decision➛Decision Table Multiple Result Table","reference":"sys_decision_multi_result","reference_display":"Decision Table Multiple Result Table","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{}},{"name":"1e4c3e78-c32c-4feb-bc18-63bf24138bae.answer.result_elements.u_scheduled_data_import.name","label":"7 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Scheduled Data Import➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"scheduled_data_import","column_name":"name","usedInstances":{"6648e4f7-3a0c-497c-8490-927423001d94":["conditions"]}},{"name":"6648e4f7-3a0c-497c-8490-927423001d94.Record","label":"23 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import Record","type":"reference","base_type":"reference","usedInstances":{"04f116e4-a8c0-4edd-81c2-b8769046c378":["record"],"95e6e551-7b0e-4fec-9de2-fdcac04023d0":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6648e4f7-3a0c-497c-8490-927423001d94.Record.data_source","label":"23 - Look Up Record➛Scheduled Data Import Record➛Data source","reference":"sys_data_source","reference_display":"Data source","type":"reference","base_type":"reference","parent_table_name":"scheduled_import_set","column_name":"data_source","usedInstances":{"04f116e4-a8c0-4edd-81c2-b8769046c378":["record"]}},{"name":"6648e4f7-3a0c-497c-8490-927423001d94.Record.sys_id","label":"23 - Look Up Record➛Scheduled Data Import Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"scheduled_import_set","column_name":"sys_id","usedInstances":{"886f230f-58d5-414c-9cc1-251a4113ec60":["id"]}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9997cd5047b20210f3e2a3c9316d4300</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>DW Test Inbound SaaS eMail</sys_name>
         <sys_overrides/>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_flow_9997cd5047b20210f3e2a3c9316d4300</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:38</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <type>flow</type>
         <version>1</version>
     </sys_hub_flow>
@@ -670,10 +670,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>bcea4d9447b20210f3e2a3c9316d4311</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:20</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -708,7 +708,7 @@
         <value>subjectLIKEImport Set^user_id.emailENDSWITH@db.com</value>
         <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
-    <sys_hub_action_instance action="delete_multiple" query="flow=9997cd5047b20210f3e2a3c9316d4300^sys_idNOT IN24a198cf83101210eed7c5a6feaad38b,4fe45d1447f20210f3e2a3c9316d43b5,68a198cf83101210eed7c5a6feaad385,72559c0783501210eed7c5a6feaad3e6,72e45d1447f20210f3e2a3c9316d439e,7a559c0783501210eed7c5a6feaad3eb,8003984383501210eed7c5a6feaad390,85ea4d9447b20210f3e2a3c9316d4329,a0a198cf83101210eed7c5a6feaad383,a0a198cf83101210eed7c5a6feaad388,b8c619d447f20210f3e2a3c9316d43f4,cbe45d1447f20210f3e2a3c9316d43aa,cdea4d9447b20210f3e2a3c9316d436a,e8a198cf83101210eed7c5a6feaad389,f4c659d447f20210f3e2a3c9316d4300"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9997cd5047b20210f3e2a3c9316d4300^sys_idNOT IN24a198cf83101210eed7c5a6feaad38b,267b980f83501210eed7c5a6feaad3d4,4fe45d1447f20210f3e2a3c9316d43b5,68a198cf83101210eed7c5a6feaad385,6a7b980f83501210eed7c5a6feaad3da,6a7b980f83501210eed7c5a6feaad3e2,72559c0783501210eed7c5a6feaad3e6,72e45d1447f20210f3e2a3c9316d439e,7a559c0783501210eed7c5a6feaad3eb,8003984383501210eed7c5a6feaad390,85ea4d9447b20210f3e2a3c9316d4329,a0a198cf83101210eed7c5a6feaad383,a0a198cf83101210eed7c5a6feaad388,b8c619d447f20210f3e2a3c9316d43f4,cbe45d1447f20210f3e2a3c9316d43aa,cdea4d9447b20210f3e2a3c9316d436a,e8a198cf83101210eed7c5a6feaad389,ea7b980f83501210eed7c5a6feaad3d7,f4c659d447f20210f3e2a3c9316d4300"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -726,10 +726,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:53:21</sys_created_on>
         <sys_id>24a198cf83101210eed7c5a6feaad38b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>863a4f20-62ea-43c4-a9c9-0442d81df5c9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24a198cf83101210eed7c5a6feaad38b"/>
@@ -803,6 +803,71 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Find the pre-set Scheduled Data Import record to use</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
+        <generation_source/>
+        <order>23</order>
+        <parent_ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>267b980f83501210eed7c5a6feaad3d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <ui_id>6648e4f7-3a0c-497c-8490-927423001d94</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=267b980f83501210eed7c5a6feaad3d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>267b980f83501210eed7c5a6feaad3d4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>ee7b980f83501210eed7c5a6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>scheduled_import_set</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=267b980f83501210eed7c5a6feaad3d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>267b980f83501210eed7c5a6feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>a67b980f83501210eed7c5a6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{1e4c3e78-c32c-4feb-bc18-63bf24138bae.answer.result_elements.u_scheduled_data_import.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>267b980f83501210eed7c5a6feaad3d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>6e7b980f83501210eed7c5a6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=267b980f83501210eed7c5a6feaad3d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=267b980f83501210eed7c5a6feaad3d4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
         <action_type_parent display_value="Copy Attachment">95849c2a9353130079b5925cf67ffb91</action_type_parent>
         <attributes/>
@@ -811,16 +876,16 @@
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
-        <order>29</order>
+        <order>35</order>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:09:51</sys_created_on>
         <sys_id>4fe45d1447f20210f3e2a3c9316d43b5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>ed5f5f1f-2495-40b5-87c9-db6374da1001</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4fe45d1447f20210f3e2a3c9316d43b5"/>
@@ -908,10 +973,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:53:21</sys_created_on>
         <sys_id>68a198cf83101210eed7c5a6feaad385</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>b3cb51f6-15f6-4f20-8723-d2b941b632c1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=68a198cf83101210eed7c5a6feaad385"/>
@@ -985,10 +1050,140 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="DW Run Scheduled Data Import">82751d5447f20210f3e2a3c9316d438d</action_type>
+        <action_type_parent display_value="DW Run Scheduled Data Import">7c151d5c47b20210f3e2a3c9316d432d</action_type_parent>
+        <attributes/>
+        <comment>Execute the Scheduled Data Import</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
+        <generation_source/>
+        <order>25</order>
+        <parent_ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>6a7b980f83501210eed7c5a6feaad3da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <ui_id>886f230f-58d5-414c-9cc1-251a4113ec60</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a7b980f83501210eed7c5a6feaad3da"/>
+    <sys_element_mapping action="delete_multiple" query="id=6a7b980f83501210eed7c5a6feaad3da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>id</field>
+        <id>6a7b980f83501210eed7c5a6feaad3da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>2e7b980f83501210eed7c5a6feaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_82751d5447f20210f3e2a3c9316d438d</table>
+        <value>{{6648e4f7-3a0c-497c-8490-927423001d94.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a7b980f83501210eed7c5a6feaad3da"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a7b980f83501210eed7c5a6feaad3da"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment>Approved</comment>
+        <comment>Deactivate the Scheduled Data Import</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
+        <generation_source/>
+        <order>27</order>
+        <parent_ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>6a7b980f83501210eed7c5a6feaad3e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <ui_id>95e6e551-7b0e-4fec-9de2-fdcac04023d0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a7b980f83501210eed7c5a6feaad3e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a7b980f83501210eed7c5a6feaad3e2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>6a7b980f83501210eed7c5a6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>scheduled_import_set</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a7b980f83501210eed7c5a6feaad3e2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>a67b980f83501210eed7c5a6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a7b980f83501210eed7c5a6feaad3e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6a7b980f83501210eed7c5a6feaad3e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>267b980f83501210eed7c5a6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{6648e4f7-3a0c-497c-8490-927423001d94.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6a7b980f83501210eed7c5a6feaad3e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>ae7b980f83501210eed7c5a6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6a7b980f83501210eed7c5a6feaad3e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>627b980f83501210eed7c5a6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a7b980f83501210eed7c5a6feaad3e2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a7b980f83501210eed7c5a6feaad3e2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Set the REQuest to Approved</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
@@ -999,10 +1194,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 20:09:37</sys_created_on>
         <sys_id>72559c0783501210eed7c5a6feaad3e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>e39fb090-5696-4650-a64a-2bcf0405d869</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72559c0783501210eed7c5a6feaad3e6"/>
@@ -1083,16 +1278,16 @@
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
-        <order>27</order>
+        <order>33</order>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:09:51</sys_created_on>
         <sys_id>72e45d1447f20210f3e2a3c9316d439e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>b084a0a1-fead-461d-a217-3739ff03122b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72e45d1447f20210f3e2a3c9316d439e"/>
@@ -1138,16 +1333,16 @@
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
-        <order>24</order>
+        <order>30</order>
         <parent_ui_id>e6eac2e1-156b-460a-a598-29b940ff435d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 20:09:37</sys_created_on>
         <sys_id>7a559c0783501210eed7c5a6feaad3eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>4e0ed5f0-4cd9-4b09-9c30-051e3d17a6f6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a559c0783501210eed7c5a6feaad3eb"/>
@@ -1235,10 +1430,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:59:20</sys_created_on>
         <sys_id>8003984383501210eed7c5a6feaad390</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>5c1bb956-d737-4d15-b2f9-8b8c145c559b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8003984383501210eed7c5a6feaad390"/>
@@ -1390,10 +1585,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>85ea4d9447b20210f3e2a3c9316d4329</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>da4650d5-c213-4d72-aef8-59ccbe45d905</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85ea4d9447b20210f3e2a3c9316d4329"/>
@@ -1429,10 +1624,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:53:21</sys_created_on>
         <sys_id>a0a198cf83101210eed7c5a6feaad383</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>3ea24088-dd12-41b7-ba8c-3225b40ff627</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0a198cf83101210eed7c5a6feaad383"/>
@@ -1494,10 +1689,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:53:21</sys_created_on>
         <sys_id>a0a198cf83101210eed7c5a6feaad388</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>e7d621e2-1209-4e22-a166-02f2dacee00c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0a198cf83101210eed7c5a6feaad388"/>
@@ -1553,16 +1748,16 @@
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
-        <order>30</order>
+        <order>36</order>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:17:54</sys_created_on>
         <sys_id>b8c619d447f20210f3e2a3c9316d43f4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>1f2d8249-51aa-484d-af9f-1e5a69132eca</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8c619d447f20210f3e2a3c9316d43f4"/>
@@ -1592,16 +1787,16 @@
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
-        <order>28</order>
+        <order>34</order>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:09:51</sys_created_on>
         <sys_id>cbe45d1447f20210f3e2a3c9316d43aa</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>b2f7b932-4de0-4866-9394-da229e4a77b4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cbe45d1447f20210f3e2a3c9316d43aa"/>
@@ -1703,10 +1898,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:02</sys_created_on>
         <sys_id>cdea4d9447b20210f3e2a3c9316d436a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>d5705641-bd0b-4e2b-b2c2-e6b2b76bf097</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cdea4d9447b20210f3e2a3c9316d436a"/>
@@ -1794,10 +1989,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:53:21</sys_created_on>
         <sys_id>e8a198cf83101210eed7c5a6feaad389</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>710acfab-a7eb-4404-9045-9555a2c2f826</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e8a198cf83101210eed7c5a6feaad389"/>
@@ -1845,24 +2040,129 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <action_type display_value="Delete Attachment">bdc2a0170f973300dfd3694e68767e47</action_type>
+        <action_type_parent display_value="Delete Attachment">6672502a9353130079b5925cf67ffbc6</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Clear all attachments from the Data Source</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
-        <order>32</order>
+        <order>24</order>
+        <parent_ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>ea7b980f83501210eed7c5a6feaad3d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <ui_id>04f116e4-a8c0-4edd-81c2-b8769046c378</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea7b980f83501210eed7c5a6feaad3d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea7b980f83501210eed7c5a6feaad3d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>2e7b980f83501210eed7c5a6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value/>
+        <variable display_value="Source Record">7dc2a0170f973300dfd3694e68767e48</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea7b980f83501210eed7c5a6feaad3d7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>a27b980f83501210eed7c5a6feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>sys_data_source</value>
+        <variable display_value="Table">79c2a0170f973300dfd3694e68767e50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea7b980f83501210eed7c5a6feaad3d7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>ee7b980f83501210eed7c5a6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Delete All Attachments?">b1c2a0170f973300dfd3694e68767e5a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea7b980f83501210eed7c5a6feaad3d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>delete_all_</field>
+        <id>ea7b980f83501210eed7c5a6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>267b980f83501210eed7c5a6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bdc2a0170f973300dfd3694e68767e47</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ea7b980f83501210eed7c5a6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>aa7b980f83501210eed7c5a6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bdc2a0170f973300dfd3694e68767e47</table>
+        <value>{{6648e4f7-3a0c-497c-8490-927423001d94.Record.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ea7b980f83501210eed7c5a6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>e67b980f83501210eed7c5a6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bdc2a0170f973300dfd3694e68767e47</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea7b980f83501210eed7c5a6feaad3d7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea7b980f83501210eed7c5a6feaad3d7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Deactivate the Scheduled Data Import</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
+        <generation_source/>
+        <order>38</order>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:17:54</sys_created_on>
         <sys_id>f4c659d447f20210f3e2a3c9316d4300</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>fa8317d6-5ec8-4eac-98f3-b4333735e29c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f4c659d447f20210f3e2a3c9316d4300"/>
@@ -1933,7 +2233,7 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f4c659d447f20210f3e2a3c9316d4300"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4c659d447f20210f3e2a3c9316d4300"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=9997cd5047b20210f3e2a3c9316d4300^sys_idNOT IN01ea4d9447b20210f3e2a3c9316d432c,09ea4d9447b20210f3e2a3c9316d432f,0dea4d9447b20210f3e2a3c9316d4361,32559c0783501210eed7c5a6feaad3ee,41ea4d9447b20210f3e2a3c9316d4340,41ea4d9447b20210f3e2a3c9316d435e,4dea4d9447b20210f3e2a3c9316d4342,6ca198cf83101210eed7c5a6feaad365,70ea4d9447b20210f3e2a3c9316d4320,74c659d447f20210f3e2a3c9316d4303,81ea4d9447b20210f3e2a3c9316d4346,81ea4d9447b20210f3e2a3c9316d4397,b4c619d447f20210f3e2a3c9316d43f7,c1ea4d9447b20210f3e2a3c9316d436e,c5ea4d9447b20210f3e2a3c9316d435a,f2559c0783501210eed7c5a6feaad3e9,f6e45d1447f20210f3e2a3c9316d4388,fa559c0783501210eed7c5a6feaad3e1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9997cd5047b20210f3e2a3c9316d4300^sys_idNOT IN01ea4d9447b20210f3e2a3c9316d432c,09ea4d9447b20210f3e2a3c9316d432f,0dea4d9447b20210f3e2a3c9316d4361,32559c0783501210eed7c5a6feaad3ee,41ea4d9447b20210f3e2a3c9316d4340,41ea4d9447b20210f3e2a3c9316d435e,4dea4d9447b20210f3e2a3c9316d4342,6ca198cf83101210eed7c5a6feaad365,6e7b980f83501210eed7c5a6feaad3dc,70ea4d9447b20210f3e2a3c9316d4320,74c659d447f20210f3e2a3c9316d4303,81ea4d9447b20210f3e2a3c9316d4346,81ea4d9447b20210f3e2a3c9316d4397,a67b980f83501210eed7c5a6feaad3e5,b4c619d447f20210f3e2a3c9316d43f7,c1ea4d9447b20210f3e2a3c9316d436e,c5ea4d9447b20210f3e2a3c9316d435a,f2559c0783501210eed7c5a6feaad3e9,f6e45d1447f20210f3e2a3c9316d4388,fa559c0783501210eed7c5a6feaad3e1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">d4a198cf83101210eed7c5a6feaad32e</block>
@@ -1958,10 +2258,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>01ea4d9447b20210f3e2a3c9316d432c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>3764ddd4-d663-4845-b6c2-ad60987674dd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2007,10 +2307,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>09ea4d9447b20210f3e2a3c9316d432f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>45c623b3-a57e-4de6-842b-0da3951ad0bb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2081,10 +2381,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:02</sys_created_on>
         <sys_id>0dea4d9447b20210f3e2a3c9316d4361</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>b37dd2ac-0788-461c-8486-b134eae77855</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2096,7 +2396,7 @@
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">7a559c0783501210eed7c5a6feaad3ed</block>
-        <comment/>
+        <comment>Error: Your request to load the Subscription Data has been rejected</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -2108,7 +2408,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>25</order>
+        <order>31</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>e6eac2e1-156b-460a-a598-29b940ff435d</parent_ui_id>
@@ -2116,10 +2416,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 20:09:37</sys_created_on>
         <sys_id>32559c0783501210eed7c5a6feaad3ee</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>c3b61816-57a9-4bc6-a110-6d24b0cb41ae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2179,10 +2479,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>41ea4d9447b20210f3e2a3c9316d4340</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>84a5dd31-5d76-48e6-968e-ea73b843e09c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2214,10 +2514,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:02</sys_created_on>
         <sys_id>41ea4d9447b20210f3e2a3c9316d435e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>7bc2d64f-0dff-4895-a2f4-e953c91e294f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2277,10 +2577,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>4dea4d9447b20210f3e2a3c9316d4342</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>68fed62d-f4ef-4bfb-b33c-56c80f214130</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2327,10 +2627,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 19:53:21</sys_created_on>
         <sys_id>6ca198cf83101210eed7c5a6feaad365</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>5270a229-12a3-4c00-a6c3-a87d81a23485</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2380,6 +2680,84 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=6ca198cf83101210eed7c5a6feaad365"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
+        <block display_value="">627b980f83501210eed7c5a6feaad3dc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>26</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>6e7b980f83501210eed7c5a6feaad3dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <ui_id>9bb96e3c-e3b3-42e2-b69c-e5ac8483eb6b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6e7b980f83501210eed7c5a6feaad3dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e7b980f83501210eed7c5a6feaad3dc</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>2e7b980f83501210eed7c5a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e7b980f83501210eed7c5a6feaad3dc</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>a27b980f83501210eed7c5a6feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>38fa64edc0a8016400f4a5724b0434b8</value>
+        <variable display_value="During the following schedule">fb55145473031300b61e66476bf6a762</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e7b980f83501210eed7c5a6feaad3dc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>ee7b980f83501210eed7c5a6feaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_9997cd5047b20210f3e2a3c9316d4300^id=6e7b980f83501210eed7c5a6feaad3dc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=6e7b980f83501210eed7c5a6feaad3dc"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6e7b980f83501210eed7c5a6feaad3dc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e7b980f83501210eed7c5a6feaad3dc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">54a198cf83101210eed7c5a6feaad327</block>
         <comment>Default: Error: No Attachments Found</comment>
         <connected_to/>
@@ -2401,10 +2779,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>70ea4d9447b20210f3e2a3c9316d4320</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>4502780b-d1df-47da-b01f-4664d3f3a798</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2444,7 +2822,7 @@
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">e8a198cf83101210eed7c5a6feaad3a1</block>
-        <comment/>
+        <comment>Scheduled Data Import has been triggered</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -2456,7 +2834,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>33</order>
+        <order>39</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
@@ -2464,10 +2842,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:17:54</sys_created_on>
         <sys_id>74c659d447f20210f3e2a3c9316d4303</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>4241c561-f17c-4228-8b06-1fd64d8e1613</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2514,10 +2892,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>81ea4d9447b20210f3e2a3c9316d4346</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>1e4c3e78-c32c-4feb-bc18-63bf24138bae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2619,10 +2997,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:02</sys_created_on>
         <sys_id>81ea4d9447b20210f3e2a3c9316d4397</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>e0d5af89-fe0b-44f9-aaae-32b1da8fcc69</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2661,6 +3039,55 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=81ea4d9447b20210f3e2a3c9316d4397"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
+        <block display_value="">ee7b980f83501210eed7c5a6feaad3e4</block>
+        <comment>Scheduled Data Import has been triggered</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
+        <flow_variable/>
+        <flow_variables_assigned>response,error</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>28</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>a67b980f83501210eed7c5a6feaad3e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <ui_id>08ce798e-9f4c-4d3e-9067-1744c316e940</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a67b980f83501210eed7c5a6feaad3e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a67b980f83501210eed7c5a6feaad3e5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 20:36:22</sys_created_on>
+        <sys_id>667b980f83501210eed7c5a6feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
+        <value>Scheduled Data Import has been triggered</value>
+        <variable display_value="Response">bcea4d9447b20210f3e2a3c9316d4314</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_9997cd5047b20210f3e2a3c9316d4300^id=a67b980f83501210eed7c5a6feaad3e5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a67b980f83501210eed7c5a6feaad3e5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a67b980f83501210eed7c5a6feaad3e5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">e4a198cf83101210eed7c5a6feaad39a</block>
         <comment/>
         <connected_to/>
@@ -2674,7 +3101,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
-        <order>31</order>
+        <order>37</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</parent_ui_id>
@@ -2682,10 +3109,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:17:54</sys_created_on>
         <sys_id>b4c619d447f20210f3e2a3c9316d43f7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>8b8ed910-be15-4a4d-a62d-378b1c9c4dc9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2747,10 +3174,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:02</sys_created_on>
         <sys_id>c1ea4d9447b20210f3e2a3c9316d436e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>a7d59ddd-9fe5-4386-8048-ab1bafe2cd57</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2822,10 +3249,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:02</sys_created_on>
         <sys_id>c5ea4d9447b20210f3e2a3c9316d435a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <ui_id>14c3557e-f825-47db-a24c-09b44c331588</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2888,7 +3315,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>23</order>
+        <order>29</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>5270a229-12a3-4c00-a6c3-a87d81a23485</parent_ui_id>
@@ -2896,10 +3323,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 20:09:37</sys_created_on>
         <sys_id>f2559c0783501210eed7c5a6feaad3e9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>e6eac2e1-156b-460a-a598-29b940ff435d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2923,7 +3350,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>26</order>
+        <order>32</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b37dd2ac-0788-461c-8486-b134eae77855</parent_ui_id>
@@ -2931,10 +3358,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:09:50</sys_created_on>
         <sys_id>f6e45d1447f20210f3e2a3c9316d4388</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>e56454ae-b7f8-4745-9e04-6ca4f7d9f82e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2967,10 +3394,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-01 20:09:37</sys_created_on>
         <sys_id>fa559c0783501210eed7c5a6feaad3e1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:37</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>6f019bdb-0f46-4bb7-8804-d743adbab58b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3021,13 +3448,13 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9997cd5047b20210f3e2a3c9316d4300^sys_idNOT IN539b959c47f20210f3e2a3c9316d4395"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
-        <comment/>
+        <comment>Respond to Sender with the Status</comment>
         <display_text/>
         <flow display_value="DW Test Inbound SaaS eMail">9997cd5047b20210f3e2a3c9316d4300</flow>
         <generation_source/>
         <inputs/>
         <inputs/>
-        <order>34</order>
+        <order>40</order>
         <parent_ui_id/>
         <subflow display_value="DW Test Inbound SaaS eMail Response">7a3b1d5c47f20210f3e2a3c9316d432b</subflow>
         <subflow_instance_inputs/>
@@ -3035,10 +3462,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 22:39:05</sys_created_on>
         <sys_id>539b959c47f20210f3e2a3c9316d4395</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:38</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:22</sys_updated_on>
         <ui_id>9672b2d2-76df-4a4e-bc37-7152214cf687</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=539b959c47f20210f3e2a3c9316d4395"/>
@@ -3304,14 +3731,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>30ea4d9447b20210f3e2a3c9316d4319</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-01 20:09:36</sys_updated_on>
+        <sys_updated_on>2024-09-01 20:36:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
