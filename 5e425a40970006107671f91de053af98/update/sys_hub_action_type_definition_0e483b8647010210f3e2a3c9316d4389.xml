@@ -84,11 +84,12 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
+        <inputs/>
         <label>JSON Builder step</label>
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="">dfd9f353b733111007402a91de11a9e3</step_type>
+        <step_type display_value="JSON Builder">dfd9f353b733111007402a91de11a9e3</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-21 22:29:32</sys_created_on>
         <sys_id>5da0581e47810210f3e2a3c9316d435d</sys_id>
@@ -110,8 +111,21 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
         <value/>
-        <variable display_value="">92da7393b733111007402a91de11a980</variable>
+        <variable display_value="Structure">92da7393b733111007402a91de11a980</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5da0581e47810210f3e2a3c9316d435d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>structure</field>
+        <id>5da0581e47810210f3e2a3c9316d435d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 22:29:32</sys_created_on>
+        <sys_id>15a0581e47810210f3e2a3c9316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dfd9f353b733111007402a91de11a9e3</table>
+        <value>[{"id":"dc8d3617-71c1-476f-bef1-9f523f3a279c","name":"name","value":"{{action.name}}","type":"string","path":[],"choice":"empty string"},{"id":"d5f300bb-b071-416d-8fd3-38dd34d80e6f","name":"description","value":"{{action.description}}","type":"string","path":[],"choice":"empty string"},{"id":"c0689963-d332-433e-bb5e-4c148164d09b","name":"os_type","value":"{{action.os_type}}","type":"string","path":[],"choice":"empty string"},{"id":"5fafb1a6-a865-4e2f-b489-e7fc0eca57a8","name":"pathCount","value":"{{action.pathcount}}","type":"number","path":[],"choice":"empty string"},{"id":"cc13a31c-c55a-4d3b-af17-98e357e82574","name":"paths","value":"","type":"array","path":[],"choice":"empty string"},{"id":"783109f0-3bcb-46d5-ae4d-aeb3a8aee0ff","name":"export_version","value":"{{action.export_version}}","type":"string","path":[],"choice":"empty string"}]</value>
+    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=5da0581e47810210f3e2a3c9316d435d"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=5da0581e47810210f3e2a3c9316d435d"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=5da0581e47810210f3e2a3c9316d435d"/>
@@ -125,11 +139,12 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
+        <inputs/>
         <label>Payload Builder step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="">2429af02b3331300176b051a16a8dcab</step_type>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-21 20:44:04</sys_created_on>
         <sys_id>6c88f3ca47010210f3e2a3c9316d43e5</sys_id>
@@ -151,8 +166,21 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-21 21:37:54</sys_updated_on>
         <value>{}</value>
-        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+        <variable display_value="Name Value Pairs">89cb2b82b3331300176b051a16a8dc32</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c88f3ca47010210f3e2a3c9316d43e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name_value</field>
+        <id>6c88f3ca47010210f3e2a3c9316d43e5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 20:44:04</sys_created_on>
+        <sys_id>e0887bca47010210f3e2a3c9316d4353</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 22:29:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab</table>
+        <value>{"type":"ADV_NV","value":[{"name":"name","value":"{{action.name}}","attributes":{}},{"name":"description","value":"{{action.description}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"os_type","value":"{{action.os_type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"revision","value":"1","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"deleted_at","value":"null","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"deployment_needed","value":"1","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"pathCount","value":"","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"computerGroupCount","value":"0","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"descriptiveStatus","value":"\"draft\"","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"paths","value":"{{action.paths}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=6c88f3ca47010210f3e2a3c9316d43e5"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=6c88f3ca47010210f3e2a3c9316d43e5"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=6c88f3ca47010210f3e2a3c9316d43e5"/>

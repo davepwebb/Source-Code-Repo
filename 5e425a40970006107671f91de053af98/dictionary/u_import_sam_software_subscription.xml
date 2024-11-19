@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2c41451847720210f3e2a3c9316d43e7" extends="sys_import_set_row" label="Import SAM Software Subscription" max_length="40" name="u_import_sam_software_subscription" type="collection">
-        <element label="Edition" max_length="40" name="u_edition" type="string"/>
+        <element label="Subscription profile" max_length="40" name="u_subscription_profile" type="string"/>
         <element label="Last activity" max_length="40" name="u_last_activity" type="string"/>
         <element label="Product" max_length="40" name="u_product" type="string"/>
-        <element label="Publisher" max_length="40" name="u_publisher" type="string"/>
-        <element label="Software Model" max_length="44" name="u_software_model" type="string"/>
-        <element label="Subscription profile" max_length="40" name="u_subscription_profile" type="string"/>
         <element label="User" max_length="40" name="u_user" type="string"/>
+        <element label="Publisher" max_length="40" name="u_publisher" type="string"/>
         <element label="User principal name" max_length="40" name="u_user_principal_name" type="string"/>
+        <element label="Edition" max_length="40" name="u_edition" type="string"/>
+        <element label="Software Model" max_length="44" name="u_software_model" type="string"/>
         <element label="Version" max_length="40" name="u_version" type="string"/>
     </element>
 </database>

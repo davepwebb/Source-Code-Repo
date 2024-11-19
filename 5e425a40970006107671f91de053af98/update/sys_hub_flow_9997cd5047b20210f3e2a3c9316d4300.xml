@@ -3848,7 +3848,7 @@
         <sys_created_on>2024-06-10 21:26:00</sys_created_on>
         <sys_id>34ea0d9447b20210f3e2a3c9316d43f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Subject</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
@@ -3871,7 +3871,7 @@
         <sys_created_on>2024-06-10 21:26:00</sys_created_on>
         <sys_id>7cea0d9447b20210f3e2a3c9316d43e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body Text</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
@@ -3894,7 +3894,7 @@
         <sys_created_on>2024-06-10 21:26:00</sys_created_on>
         <sys_id>7cea0d9447b20210f3e2a3c9316d43e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
@@ -3917,7 +3917,7 @@
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>b8ea4d9447b20210f3e2a3c9316d430d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Record</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
@@ -3940,7 +3940,7 @@
         <sys_created_on>2024-06-10 21:26:00</sys_created_on>
         <sys_id>f0ea0d9447b20210f3e2a3c9316d43f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Inbound Email</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
@@ -3963,7 +3963,7 @@
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>f0ea0d9447b20210f3e2a3c9316d43fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From address</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
@@ -3986,7 +3986,7 @@
         <sys_created_on>2024-06-10 21:26:01</sys_created_on>
         <sys_id>f0ea0d9447b20210f3e2a3c9316d43fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_trigger_definition">
+    <sys_pd_trigger_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label>DW Test Playbook Trigger</label>
+        <name>dw_test_playbook_trigger</name>
+        <short_description/>
+        <sys_class_name>sys_pd_trigger_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 15:33:28</sys_created_on>
+        <sys_id>55520fcb978192107671f91de053af75</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DW Test Playbook Trigger</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_pd_trigger_definition_55520fcb978192107671f91de053af75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:38:49</sys_updated_on>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=55520fcb978192107671f91de053af75"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_definition</document>
+        <document_key>55520fcb978192107671f91de053af75</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 15:38:49</sys_created_on>
+        <sys_id>62c3878f978192107671f91de053af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:38:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Run On Extended">38c838790f0010108c87f4f0ff767e5a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_definition</document>
+        <document_key>55520fcb978192107671f91de053af75</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 15:36:10</sys_created_on>
+        <sys_id>af23070f978192107671f91de053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:36:10</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="Condition">2a8a7851ff2200108c8733af793bf131</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_definition</document>
+        <document_key>55520fcb978192107671f91de053af75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 15:36:10</sys_created_on>
+        <sys_id>e723070f978192107671f91de053afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:36:10</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+</record_update>
