@@ -5,21 +5,16 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Monitor MID Server Status</description>
-        <display_name_after_preview/>
-        <flow_priority>MEDIUM</flow_priority>
-        <generation_source/>
         <internal_name>dw_monitor_mid_server</internal_name>
         <label_cache>[]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <master_snapshot_digest/>
         <name>DW Monitor MID Server</name>
         <natlang/>
         <outputs/>
@@ -31,7 +26,6 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
-        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:22:58</sys_created_on>
@@ -48,10 +42,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
         <type>flow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6b0a65f197a012107671f91de053af94"/>
     <sys_variable_value action="delete_multiple" query="document_key=6b0a65f197a012107671f91de053af94"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6b0a65f197a012107671f91de053af94^sys_idNOT IN670a65f197a012107671f91de053af95"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -82,7 +76,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">14178d7f8dc20210d0ad51af41866361</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -344,53 +338,12 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d37f21bd97a012107671f91de053af36"/>
     <sys_hub_flow_output action="delete_multiple" query="model=6b0a65f197a012107671f91de053af94"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b0a65f197a012107671f91de053af94"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94^sys_idNOT IN9f7f21bd97a012107671f91de053af3a"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="DW Monitor MID Server">6b0a65f197a012107671f91de053af94</flow>
-        <name>Updated</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-10 15:46:42</sys_created_on>
-        <sys_id>9f7f21bd97a012107671f91de053af3a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
-        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9Va227jNhD9FUJPLeAWkuVLnD6lTtINkE0A290+LAKBIimbqEx5RUpZd7H/3qEutqyL49jyJvuSxLzNmeGZM2Toz98MH7vMNy6NGXZ9ZnQMLhQLBfZn6xWDZqWbHYGXum+JBcUqCNfGpQoj1jGCkLLQuLQ6Roz9iE3X8o7CJBiazMimG1k3fGaEOHjOhII2yuXKx+tPWdfHu2s0ZWEMC3YMsuA+DZkwLj8/dYwVDmE5pU19K3UpgOns+IAeUrBcI7EoxVaXmcS27G7XNLsXPcsd2K7VpTZm+ALGlQNQQq5q4rB1m31VTFAGpjzsS1YTopBh+ij8dWHEV8n/gzUvTN3rMfCFsDRqZBFwwh5XigcibUlhpJ2BHy3FQwpPx495OPJVHj9oiSRzKFtpRBDh3KA3XQTPk9zQLRcJ+KzTDwj2N5+wUiF3I8WkjrTHfYi5k7ougyhMYE5uxo+Ta+efq9n4w83EmdxMZ5O78ezm2vie+ON8ifSKKcIMi5O6832z6bec+Xp/soBKEvKVuiKKxywD872z5eY4EJQnManwk+RdcpefmUP5TplmI0VJYfGcplJhFclPV/fjD1cPf91Mj2bkuAgvYaTrjjBluIGRg2GBkUW3a8CqmggU/d3HzaylmZw90zw3PdP8OJqdy4Ay/3q7nAGd8znwlYtVpHQw8gA4wYqF2nGYZ2w39Y/s9+3k8WP+9+wR5j1joaSjAgdT6hTCq02ALy/RPI1Jlesv8zyMBCzhbDauyvZkAzY7cc8lOP4ZMjWPcrIk9Hv32ZKTSKAAdhh+IBKFEGSFcmnz7pagxSkyb8p8RlSBLd7fsvjpI5eSi3kB9cZoEpWKzY05YB3KXUptyxONPx2Z6tX4xqW4lWrS8Xmfb1SS8wNCrZ47HJhDnfGWabueZQ7NPvaobZoju5DzVYiN2FWJEy3mfkPmy4Rs/gHUKsc1w2YW2X4QTeJdjuU+agpkAjNuB5rVErSuhlYSSvtVSrnhYtp8vUvJfa61XP8xjTHMoIcKnx5wgMJ5fvAMIn2EurmY/DsPg0jQstzoNREXaDsC/ZLF79cWlc4LQrYfwO6IN9K4bYRzjmKxPpu69Rihw0FvYIKo2aBnbn80cgnuet5wMGQmLanbFlwt4vegai+wKa6jY5PC1RIjruPTK7TtBIAVnXs1wNMVLmNjrb6lfT+Hkj0vmHAAauj4Wqsqgjb3OWV539HZXLESb/O3rYy+z/Br67Z3Qfv94ZAM4XYC+ez1mIutXrePR8OBzQalfK7A2wdd1QTmjHcWuZaJ+Xd3tT4nISVTSheS19dXAQfMZA5OjRRqnI44SuQiCNFDIH67245DUwalK7mTtlVoD0EBi4XovDDcQC0qlR5M/wntO6b1CbEhKm952SnxId5160zHgQt71KeeXS8fw26dfGwhNoN/64PBgRkQN+ZS3QnhUELHtXnRWNKPoGiJG8Vav+cw0lZQrNaD0j1fUOyTD0B5Ajbe8I4B+xOVqORIcEqd0jaZE3hFcb4OEHQgMIK4h7L/BsKF3V0jtWAQUh9OumAQaeunqnKxSlShbBj8Y4GkZ+dKtYJmlJ2C3rQQlXb9R9xNiTdy6chuOMv2m8+yzRWp1P3WZenVrI/rkmhvbXrduuU1a6tTgZK7NDiw7rTqdX3xOc3r2vLzktenF5Z9N+saFO+/ZGjQs3QbjigUgSCl+wNp8+EjEvxLxByywGKePmrkhm4hzgyTBUqHoHRIm1LvP+O1NMo1B0ir8yL7xzA0QIaIVKjassxiFq4rvupGFK1A3U71cn+Z2fNVg+z5T6oQQMzXO8lJzve4Q6xRv2vTC2JbI7v6FQOrUGJ2ydyMu7GmvPCNg6aasuDJA2nBfLZhii9ZImybV060xIosmOwg2NXknSHRPR5KlYz+3Tjm5kRYdTfqSk5j2sRNGdco4XsyIS7nUJ1m17A6LmVAUbX33pH2uG+14n63Dfft49zvnVy08vSsrVpZ9NqtVMcWpqf/AWEXReYxJQAA</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>record_update</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94^sys_idNOT IN5f7f21bd97a012107671f91de053af3b"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
-        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="DW Monitor MID Server">6b0a65f197a012107671f91de053af94</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-10 15:46:42</sys_created_on>
-        <sys_id>5f7f21bd97a012107671f91de053af3b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
-        <ui_id>0b5aeaec-b974-4fa1-8090-0e2752f21cc8</ui_id>
-        <values>H4sIAAAAAAAA/91UwW7iMBT8FeQzIALNdsutglaqtLTSIrGHqooc+wUsOXbWcaAs4t/3OXFCiqCC1Z4q5eLxvOeZ54lfd0RwMiZhzIKYsW/hKBgMRvjFScDvgsEdsPD7Lb8lXaJoCsiUehlJWINEaE1l4TChEo1LLvJM0u3Co08VylZCcgOKjF/fuiSjBvtYMGS8O9qy2wwiSWNsPSaTlRYMsPxSeXXhD6/thFx3AEKsbq0NdzoGXQLvFhQHPCqhMocuSani1GqzbRADlL8oeQBWQlnsRhz5PRd/sPXNwPESQEsMqr3qsBwd7hqJvV7nWSvo9HqtGX4Aa2X77qHKj/No5p4ZtJm/qFFCLVvkDSIH8rBNfjBGmxYV/NpzR3u8GQ4JLaSdXOrljK5PHQyvcTC6wsGNc1Bdw0tmhca0kcClgcayviQti1Q9V4khjd/FUbwrdHoy5UUOEYfMpcjFwmckma/05mediEehSkV+U2pGZbOi1hoRF9bNd0dAQoqNopRmGQ4iyoxei7IYxab9pcRFP5F6g4fmYqn6lDlrfQwt7T8iPi3hBTXC2ZxhGyzel/GMfhfu3MqoVxyVY3GEnBmR2XtstwYvzg27/A2Ho89+Qwg//nYp5DldQutmZk/TzhzMGkxnbqmFzmRFVck4ejrOE//tNZnjbMs4XWqjLpw1Hk4a8y9KXrevU//fXpRhGJ55UposXxXlr57Ut79bzJu+0QYAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6b0a65f197a012107671f91de053af94"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=6b0a65f197a012107671f91de053af94"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=6b0a65f197a012107671f91de053af94"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94^sys_idNOT IN1b7f21bd97a012107671f91de053af35,4b7f21bd97a012107671f91de053af32,937f21bd97a012107671f91de053af38"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94^sys_idNOT IN277b2b54c30212100eee71fdd40131c4,6f7b2b54c30212100eee71fdd40131d4,eb7b2b54c30212100eee71fdd40131ce"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
         <help/>
@@ -402,36 +355,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:46:42</sys_created_on>
-        <sys_id>1b7f21bd97a012107671f91de053af35</sys_id>
+        <sys_id>277b2b54c30212100eee71fdd40131c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94_changed_fields_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-10 15:46:42</sys_created_on>
-        <sys_id>4b7f21bd97a012107671f91de053af32</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
-        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
         <url/>
@@ -448,13 +378,36 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:46:42</sys_created_on>
-        <sys_id>937f21bd97a012107671f91de053af38</sys_id>
+        <sys_id>6f7b2b54c30212100eee71fdd40131d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Table Name</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 15:46:42</sys_created_on>
+        <sys_id>eb7b2b54c30212100eee71fdd40131ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6b0a65f197a012107671f91de053af94_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 15:46:42</sys_updated_on>
         <url/>

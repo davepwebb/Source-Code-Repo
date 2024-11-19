@@ -5,21 +5,16 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Temporary Auto-Approve APM Decom requests</description>
-        <display_name_after_preview/>
-        <flow_priority>MEDIUM</flow_priority>
-        <generation_source/>
         <internal_name>dw_apm_retire_autoapprove</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Business Application Request Record","reference":"business_app_request","reference_display":"Business Application Request","type":"reference","base_type":"reference","usedInstances":{"5ac26eea-8f5f-47bc-a44e-90e612f7a855":["record"]},"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <master_snapshot_digest/>
         <name>DW APM Retire Auto-Approve</name>
         <natlang/>
         <outputs/>
@@ -31,7 +26,6 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
-        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:29:36</sys_created_on>
@@ -48,10 +42,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 15:46:37</sys_updated_on>
         <type>flow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f89ba9f197a012107671f91de053afe7"/>
     <sys_variable_value action="delete_multiple" query="document_key=f89ba9f197a012107671f91de053afe7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f89ba9f197a012107671f91de053afe7^sys_idNOT IN309ba9f197a012107671f91de053afe8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -250,7 +244,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">14178d7f8dc20210d0ad51af41866361</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -344,53 +338,35 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b97fed7d97a012107671f91de053af84"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f89ba9f197a012107671f91de053afe7"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7^sys_idNOT IN797fed7d97a012107671f91de053af8c"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="DW APM Retire Auto-Approve">f89ba9f197a012107671f91de053afe7</flow>
-        <name>Created or Updated</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-10 15:46:36</sys_created_on>
-        <sys_id>797fed7d97a012107671f91de053af8c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:46:36</sys_updated_on>
-        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VZ23LbNhD9FQ6f2hm1w4skWu6TI9uNZxx7RlbTh9TmgCAoYUqBDAHSUTP59y54kSheZJmi4sQPtoTbnl2cPQsYn76qPnKIr56rc+T4RB2olAkSMeTP1yGBZiGbbYZWsm+FmItEEK3VcxHFZKAGkUsi9VwfqAnyY/Kw5jcuTIKh6Yx8upp3w3cn5pQRzm0UhnZEPseEC+h2KQ99tP6Yj3qXj1IuwtCnGAkaMGW2GY2X1HcjwtTzT48DNUQR2BISx9dKlwAf7B0HlbvMEyphYk8n+uRMw6YBP5pmnA11Z2w6uuGaiCANxlWjU3FLNARpGxPyRRDmEjDlIZ+ThvhFBLn3zF+XRnzh9D9Y80yTvR4BXzDJQoqXAcXkPpTRyFoyGFln4McrdpfBkxElHop9UUQUWmJObJeEEhETG4PewzJ4nhWGrilLweedfoCRv/mGhIioEwvCZaQ96kPM7cx1HsRRCnN2Nb2fXdp/X8yn769m9uzqYT67mc6vLtVvqT/251iumCHMsdiZO982NLimxJf7w+KVA2gGKscRDcUFFjQhOZxvgy11pwFzaRqVGn1x0cV36Zu7VOyVprUyGJcWL1icE9eW2/9PrGkmUE7QiDjoiQsk8jb9CUgeBTCpGJPOIu4TX3Mbw97DZ9tZZ72uE0QOFXbqgIcw6Uz0adnnlOiWZrmu3kZ07JSIXo5lQwREQ1jLQdxH+bylnfNDTTs167O060z6VeAS/3K7nAqdiwWkAWVhLGQwigDYQUgi6TjMUz9e3E7fX9z9efXwR/73enb/ofg8v4d5z4gJbovARq5rl8IrTYAvL2VPFpN6Cr2cPFHMYAl7s3H1FEo3YLMTtxQ0+PwTCEAR5XRJ6Pdu8yVnMVMC2GH4peA4giALpVBM72aFFvneeA/EJ1iU2OL9xcvfPlAOhWBRQr0xmkalZnNjDlinFC5ltvmRxh876kc9vkklbpXi1z3vi41Kc17HQ0MznbFmyYzX4aOna5Y2Qp5rappzVsr5OsRW7KLCiR5zvyXzeUo2/wBqVeOaY9PKbD+IJskuxwofJQVygZn2A03vCZohoVWE0nyVUm64mDVf7lJyn2s9HyuQmyCY4R4qfHLAAQrn+cEziHQHdXMQ/ncRBTFzq3Ij11QoU7YjlF/y+P3ao9J5QUT2A9gd8UYat41wwVHE1idTN8PUiTUejjUQNVPq2WgycTAyPM8aW0TXK+q2BdeI+EdQtRfYlDTRsU3hGomRNPHpFdp2BMCazr0a4PEKl7OxUd+yvp9DyZ6XhNkANbJ9mt6GK4K28KlLir7O2Vyzkmzzt6+Mvs3xp1dxZ+KORpaFLbidQD57Q7hM6UNjhCbW2CReJZ9r8PZBFw2BOeGdRV7upPkf7sZ+SkJyIoQsJK+vrwwOmOkclBkp1TgZcSWViyBS7gL22812nPJAoHSld9K+Cu0hKGCxSDktDCcQy1qlB9PvoH3HtDwhtkTlLS87FT4ku26d5jiADANNdLNFPqxxk3xsIbaDf+uDwYEZkLTmUtMJ4VBCJ4150VrSO1C0wo1yrd9zGOkrKHrvQTFOFxTz6ANQkYCtN7wuYH+iEpUeCY6pU9ImsQOvLM6XgQIdChhRqKfk/w2EC7uzVsSSQEh9OOmCQUVaP1aVy1WiDmXD4O8LJDs716oVNCv5KehNC1Fl17/H3ZS4Jp64bcVoaLWeZdsrUqX7rcvSq1mfNCXR3tr0unWrazZWpxIld2lwYN3p1evm4nOc143l5yWvjy8s+27WDSh+/JIhQc+zbehQKAKGK/cH3OfDR8zo55jYeInYInvUKAxdQ5wJwkslG6JkQ/qUev8ZrblarTlAWpkX+T+GoQEyhGVC1ZdlkpBoXfNVNipxCOp2rJf7yoyxp8wUz39cRABisd5JTny6xx3DmUC+jTRs6rpZe9AdlR90d8ncjrulphhda8qSpg+kJfP5hgm6IqmwbV45lRUSeEn4QIFdTd8ZUt2jERfp6N/VLjcnTOq70VRyWtMmacu4VgnfkwlJNYeaNLuB1UklA8qqvfeOtMd9vRf3jT7cN7u5Pzy6aBXp2Vi18uj1W6m6FqbH/wFe5FMVpSUAAA==</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>record_create_or_update</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7^sys_idNOT INb17fed7d97a012107671f91de053af8e"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="DW APM Retire Auto-Approve">f89ba9f197a012107671f91de053afe7</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-10 15:46:36</sys_created_on>
-        <sys_id>b17fed7d97a012107671f91de053af8e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:46:37</sys_updated_on>
-        <ui_id>5ac26eea-8f5f-47bc-a44e-90e612f7a855</ui_id>
-        <values>H4sIAAAAAAAA/+1UW2/aMBT+K1aesyghFLW8oSGkPbSd2NY9tF3kxAew5tipL1CG+O87zoXSdu0Q6iZNWp5y7t93/NnXm4CzYBj0gcXJWTIo0iRNe3HcO+0n+SDNkx5LKUAShIGkJWCmhkJphvaSCucdm817DdQCI0qTLxXzv1kSFU5rkHa7xVTGTSXo+qqtQE+x4IJhPBhe34ZBRTU2t6CD4eZJyK4ryATNQWDhWBWuxKbkwxh7HAq8q552yJ8y8TPQZm33jHsnhjyeJA4DuLcgGeC4GRUGwqCkEmkqvQ6GVjt04ALYpRTrXcaCS9swLem94T+wfz/2eTNAasVuC4oXcFlZrmTjsTQXXVAJV8qLBqtfIsyoE3Zvic5AxqDy2Py0Bsrs00Ktpt2cCZc1jRaWUAUVO4taq3nuLBi/dxBQsy9pVXE5zyqtlrwuRihlNBdoRDOhVjjT8LmMaOFxR7gJGk3QP67dV1RzT+Ic22Dxtiad3Tk/t6HRAs5qzjXhrD4RTDWF5pUdYeMltDC3YSvR/OS1ky7OHg52r+eDTHNnuARjMsSVabhzYOxzab6QdZxcP3sc5KLBcSiHR8UvcGoF+8jX6vXkzfR6+qf12o7+xwT7O5nGvVcfpL0jrZVp9iSKAJACFTcujlPWWMC+rZT+nkmFrJvAtJEloc6qd10WydfEcx2S8Vcy+nhOpmC5BjLySaMm6bnc/8LEI68OlIjTAmmQhgfvtmsw4SCY+cWyu7vTDsiW7YDde/9mFygZxPX3/9k/5tm//QlakQqRmwgAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f89ba9f197a012107671f91de053afe7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7^sys_idNOT IN397fed7d97a012107671f91de053af89,bd7fed7d97a012107671f91de053af86,fd7fed7d97a012107671f91de053af83"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7^sys_idNOT IN377b2b54c30212100eee71fdd40131e2,b77b2b54c30212100eee71fdd40131e8,ff7b2b54c30212100eee71fdd40131db"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 15:46:36</sys_created_on>
+        <sys_id>377b2b54c30212100eee71fdd40131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 15:46:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -402,7 +378,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:46:36</sys_created_on>
-        <sys_id>397fed7d97a012107671f91de053af89</sys_id>
+        <sys_id>b77b2b54c30212100eee71fdd40131e8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Table Name</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
@@ -425,36 +401,13 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:46:36</sys_created_on>
-        <sys_id>bd7fed7d97a012107671f91de053af86</sys_id>
+        <sys_id>ff7b2b54c30212100eee71fdd40131db</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7_changed_fields_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:46:36</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-10 15:46:36</sys_created_on>
-        <sys_id>fd7fed7d97a012107671f91de053af83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
-        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 15:46:36</sys_updated_on>
         <url/>

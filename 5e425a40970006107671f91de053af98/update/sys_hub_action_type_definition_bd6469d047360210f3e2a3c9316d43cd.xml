@@ -6,19 +6,15 @@
         <action_template/>
         <active>true</active>
         <annotation/>
-        <attributes/>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>dw_test_get_release_id</internal_name>
         <label_cache>[{"name":"{{action.release_id}}","label":"action➛Release ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].response_body}}","label":"step➛Script step (REST Step Equivalent - no IH)➛response_body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ece804ca-9547-42ef-96a4-73a131826f98"}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].status_code}}","label":"step➛Script step (REST Step Equivalent - no IH)➛status_code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"0278414b-6083-44ee-ba61-981333b74f5a"}},{"name":"{{step[bb912cb7-4105-4708-8c96-447fa93200b1].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>b706e55c47360210f3e2a3c9316d43c8</master_snapshot>
-        <master_snapshot_digest/>
         <name>DW Test Get Release ID</name>
         <natlang/>
         <outputs/>
@@ -39,7 +35,7 @@
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_bd6469d047360210f3e2a3c9316d43cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-19 21:49:41</sys_updated_on>
+        <sys_updated_on>2024-11-19 22:31:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -4223,14 +4219,11 @@
         <action_status/>
         <action_template/>
         <annotation/>
-        <attributes/>
-        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <flow_priority/>
         <internal_name>dw_test_get_release_id</internal_name>
         <label_cache>[{"name":"{{action.release_id}}","label":"action➛Release ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].response_body}}","label":"step➛Script step (REST Step Equivalent - no IH)➛response_body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ece804ca-9547-42ef-96a4-73a131826f98"}},{"name":"{{step[1e461b83-3c78-400f-8735-700b6654c3fa].status_code}}","label":"step➛Script step (REST Step Equivalent - no IH)➛status_code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"0278414b-6083-44ee-ba61-981333b74f5a"}},{"name":"{{step[bb912cb7-4105-4708-8c96-447fa93200b1].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>

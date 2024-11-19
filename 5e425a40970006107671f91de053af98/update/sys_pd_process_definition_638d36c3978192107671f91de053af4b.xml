@@ -4,16 +4,11 @@
         <active>true</active>
         <description>Test Playbook Experience</description>
         <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
-        <engine_major_version/>
         <label>DW Test Playbook Experience</label>
         <name>dw_test_playbook_experience</name>
-        <now_assist_prompt/>
-        <process_type/>
-        <restartable>RESTARTABLE_FALSE</restartable>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot/>
-        <start_non_blocking>true</start_non_blocking>
         <status>draft</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -34,16 +29,11 @@
         <active>true</active>
         <description>Test Playbook Experience</description>
         <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
-        <engine_major_version/>
         <label>DW Test Playbook Experience</label>
         <name>dw_test_playbook_experience</name>
-        <now_assist_prompt/>
-        <process_type/>
-        <restartable>RESTARTABLE_FALSE</restartable>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot/>
-        <start_non_blocking>true</start_non_blocking>
         <status>draft</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -69,7 +59,6 @@
         <name>new_stage</name>
         <order>1</order>
         <process_definition display_value="DW Test Playbook Experience">638d36c3978192107671f91de053af4b</process_definition>
-        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
         <start_rule_vars/>
         <sys_created_by>admin</sys_created_by>
@@ -96,7 +85,6 @@
         <order>1</order>
         <outputs/>
         <process_definition display_value="DW Test Playbook Experience">638d36c3978192107671f91de053af4b</process_definition>
-        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -107,7 +95,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-09 16:15:05</sys_updated_on>
         <type_vals/>
-        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=3e6b803e23103e07003e93903e08e03e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -140,111 +127,9 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_401bd436c7ad5110bfbaf89f51c260be^id=3e6b803e23103e07003e93903e08e03e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_401bd436c7ad5110bfbaf89f51c260be^id=3e6b803e23103e07003e93903e08e03e"/>
-    <sys_pd_process_variant action="delete_multiple" query="process_definition=638d36c3978192107671f91de053af4b"/>
-    <sys_pd_derivative action="delete_multiple" query="derivative_parent=3e6b803e23103e07003e93903e08e03e"/>
-    <sys_pd_activity_override action="delete_multiple" query="override_parent=3e6b803e23103e07003e93903e08e03e"/>
+    <sys_pd_swim_lane action="delete_multiple" query="process_definition=638d36c3978192107671f91de053af4b"/>
+    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=638d36c3978192107671f91de053af4b"/>
     <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
     <sys_json_chunk action="delete_multiple" query="document_id="/>
     <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
-    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=028944002809400286a100287d90028c^sys_idNOT IN028944002809400286a100287d90028c"/>
-    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
-        <label>DW Test Playbook Trigger</label>
-        <name>dw_test_playbook_trigger</name>
-        <process_definition display_value="DW Test Playbook Experience">638d36c3978192107671f91de053af4b</process_definition>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>028944002809400286a100287d90028c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <trigger_definition display_value="DW Test Playbook Trigger">55520fcb978192107671f91de053af75</trigger_definition>
-        <trigger_inputs/>
-        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
-    </sys_pd_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=028944002809400286a100287d90028c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_trigger_instance</document>
-        <document_key>028944002809400286a100287d90028c</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>392b83cb97c192107671f91de053afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <value>active=true</value>
-        <variable display_value="Condition">2a8a7851ff2200108c8733af793bf131</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_trigger_instance</document>
-        <document_key>028944002809400286a100287d90028c</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>b12b83cb97c192107671f91de053afb5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <value>active=true</value>
-        <variable display_value="Condition">2a8a7851ff2200108c8733af793bf131</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_trigger_instance</document>
-        <document_key>028944002809400286a100287d90028c</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>bd2b83cb97c192107671f91de053afb5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <value>sc_req_item</value>
-        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_trigger_instance</document>
-        <document_key>028944002809400286a100287d90028c</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>bd2b83cb97c192107671f91de053afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <value>sc_req_item</value>
-        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_trigger_instance</document>
-        <document_key>028944002809400286a100287d90028c</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>f92b83cb97c192107671f91de053afb5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <value>1</value>
-        <variable display_value="Run On Extended">38c838790f0010108c87f4f0ff767e5a</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_pd_trigger_instance</document>
-        <document_key>028944002809400286a100287d90028c</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 16:10:59</sys_created_on>
-        <sys_id>f92b83cb97c192107671f91de053afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 16:10:59</sys_updated_on>
-        <value>1</value>
-        <variable display_value="Run On Extended">38c838790f0010108c87f4f0ff767e5a</variable>
-    </sys_variable_value>
 </record_update>
