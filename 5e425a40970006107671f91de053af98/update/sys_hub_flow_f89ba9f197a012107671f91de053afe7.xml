@@ -5,16 +5,21 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Temporary Auto-Approve APM Decom requests</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>dw_apm_retire_autoapprove</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Business Application Request Record","reference":"business_app_request","reference_display":"Business Application Request","type":"reference","base_type":"reference","usedInstances":{"5ac26eea-8f5f-47bc-a44e-90e612f7a855":["record"]},"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>DW APM Retire Auto-Approve</name>
         <natlang/>
         <outputs/>
@@ -26,6 +31,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 15:29:36</sys_created_on>
@@ -42,10 +48,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 15:46:37</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f89ba9f197a012107671f91de053afe7"/>
     <sys_variable_value action="delete_multiple" query="document_key=f89ba9f197a012107671f91de053afe7"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f89ba9f197a012107671f91de053afe7^sys_idNOT IN309ba9f197a012107671f91de053afe8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -229,29 +236,6 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=797fed7d97a012107671f91de053af87"/>
-    <sys_complex_object action="INSERT_OR_UPDATE">
-        <label/>
-        <name>FDCollection</name>
-        <namespace>FlowDesigner</namespace>
-        <scope_name>global</scope_name>
-        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
-        <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path/>
-        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
-        <sys_mod_count>101</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">14178d7f8dc20210d0ad51af41866361</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
-        <type>complex_object_collection</type>
-    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -338,12 +322,12 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b97fed7d97a012107671f91de053af84"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f89ba9f197a012107671f91de053afe7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f89ba9f197a012107671f91de053afe7"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f89ba9f197a012107671f91de053afe7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7^sys_idNOT IN377b2b54c30212100eee71fdd40131e2,b77b2b54c30212100eee71fdd40131e8,ff7b2b54c30212100eee71fdd40131db"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -414,7 +398,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f89ba9f197a012107671f91de053afe7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f89ba9f197a012107671f91de053afe7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f89ba9f197a012107671f91de053afe7"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f89ba9f197a012107671f91de053afe7"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f89ba9f197a012107671f91de053afe7"/>

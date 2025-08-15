@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="target_columns" label="Data To Anonymize" language="en" table="dp_configuration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>target_columns</element>
+            <help/>
+            <hint>Select tables and columns you wish to Anonymize</hint>
+            <label>Data To Anonymize</label>
+            <language>en</language>
+            <name>dp_configuration</name>
+            <plural>Data To Anonymizes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>webbda</sys_created_by>
+            <sys_created_on>2025-01-20 13:08:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data To Anonymize</sys_name>
+            <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+            <sys_update_name>sys_documentation_dp_configuration_target_columns_en</sys_update_name>
+            <sys_updated_by>webbda</sys_updated_by>
+            <sys_updated_on>2025-01-20 13:08:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -13,7 +13,7 @@
         <sys_id>0c2dbe2bc3123010559d74c3e540dd6d</sys_id>
         <sys_mod_count>15</sys_mod_count>
         <sys_name>glide.user.show.password.field</sys_name>
-        <sys_package display_value="Password Policy" source="com.glide.password_policy">c61c4c6cd9313110cedf7dffddb48fde</sys_package>
+        <sys_package display_value="Password Policy" source="com.glide.password_policy">7ef5bc3d7d31311076daf29f52070d71</sys_package>
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_properties_0c2dbe2bc3123010559d74c3e540dd6d</sys_update_name>
@@ -24,6 +24,240 @@
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=0c2dbe2bc3123010559d74c3e540dd6d"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>cs</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>043836328382e61071719370ceaad350</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Povolte zobrazení pole hesla ve formuláři sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>de</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>fa5b3df2830a261071719370ceaad3f6</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Aktivieren Sie diese Option, um das Passwortfeld im Formular „sys_user“ anzuzeigen.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>es</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a24581fa83ce621071719370ceaad333</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Habilite esta opción para mostrar el campo de contraseña en el formulario sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fi</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ba88297a838ae21071719370ceaad301</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Ota käyttöön, jos haluat näyttää salasanakentän sys_user-lomakkeessa.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a6b44afe838e261071719370ceaad33c</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Activez pour afficher le champ de mot de passe sur le formulaire sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8fcd89368386a21071719370ceaad3c2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Activez cette option pour afficher le champ Mot de passe sur le formulaire sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>hu</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>4112f9b68342261071719370ceaad336</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Annak engedélyezése, hogy a jelszómező megjelenjen a sys_user űrlapon.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>it</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9338cf9f83c6221071719370ceaad33f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Abilitare per mostrare il campo password sul modulo sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d36434768382621071719370ceaad308</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>sys_user フォームにパスワードフィールドを表示するには、有効にします。</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>ko</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c4f8923e830e661071719370ceaad343</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>sys_user 양식에 암호 필드를 표시하려면 활성화합니다.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>nb</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>87fc2a7a838aa61071719370ceaad313</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Aktiver for å vise passordfeltet i sys_user-skjemaet.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>nl</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0980df6683d6621071719370ceaad384</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Inschakelen om het wachtwoordveld weer te geven op het sys_user-formulier.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>pb</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>80071536834ea21071719370ceaad3c7</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Habilite para mostrar o campo de senha no formulário sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>ru</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7fe226ba83c2a61071719370ceaad3b8</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Включить для отображения поля пароля в форме sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>sv</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>74ccf4fe830a621071719370ceaad3c8</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Aktivera för att visa lösenordsfältet i formuläret sys_user.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>tr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>48ac603e83ca221071719370ceaad385</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>sys_user Formunda parola alanını göstermek için etkinleştirin.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>zh</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>fbcf9dbe83c2e21071719370ceaad37b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>启用此项以在 sys_user 表单上显示密码字段。</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.user.show.password.field" tablename="sys_properties">0c2dbe2bc3123010559d74c3e540dd6d</documentkey>
+        <fieldname>description</fieldname>
+        <language>zt</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>445e4e3e8346661071719370ceaad3ce</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>啟用在 sys_user 表單上顯示密碼欄位。</value>
+    </sys_translated_text>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</claim_owner_scope>
         <claim_timestamp>18d55b2988c0000001</claim_timestamp>

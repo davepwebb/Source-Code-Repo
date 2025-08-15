@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Get &lt;stdout&gt; section of ECC queue results</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>parse_ecc_queue_result</internal_name>
         <label_cache>[{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3507f3e4-b8f8-4090-b97c-51309c53799e].stdout_output}}","label":"step➛Script step➛stdout_output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>8a0085dc47200210f3e2a3c9316d4376</master_snapshot>
+        <master_snapshot_digest/>
         <name>Parse ECC Queue Result</name>
         <natlang/>
         <outputs/>
@@ -34,8 +38,8 @@
         <sys_policy/>
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e11ffcd847200210f3e2a3c9316d4344</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:17:34</sys_updated_on>
+        <sys_updated_by>webbda</sys_updated_by>
+        <sys_updated_on>2024-02-24 22:26:57</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -346,7 +350,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a39fb01c47200210f3e2a3c9316d436d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a39fb01c47200210f3e2a3c9316d436d^sys_idNOT INeb9fbc9c47200210f3e2a3c9316d43bd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>stdout_output</element>
         <help/>
@@ -729,7 +732,6 @@
         <sys_updated_on>2024-02-20 00:15:30</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2b9fbc9c47200210f3e2a3c9316d43d9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e11ffcd847200210f3e2a3c9316d4344^sys_idNOT INa79fb01c47200210f3e2a3c9316d436b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>
@@ -754,7 +756,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e11ffcd847200210f3e2a3c9316d4344"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e11ffcd847200210f3e2a3c9316d4344^sys_idNOT IN350085dc47200210f3e2a3c9316d4335,390085dc47200210f3e2a3c9316d433a,a39fbc9c47200210f3e2a3c9316d43d6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -832,11 +833,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Get &lt;stdout&gt; section of ECC queue results</description>
+        <flow_priority/>
         <internal_name>parse_ecc_queue_result</internal_name>
         <label_cache>[{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3507f3e4-b8f8-4090-b97c-51309c53799e].stdout_output}}","label":"step➛Script step➛stdout_output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
@@ -1170,7 +1174,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4a0085dc47200210f3e2a3c9316d438b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4a0085dc47200210f3e2a3c9316d438b^sys_idNOT IN860085dc47200210f3e2a3c9316d4395"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>stdout_output</element>
         <help/>
@@ -1553,7 +1556,6 @@
         <sys_updated_on>2024-02-20 00:17:19</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=8e0085dc47200210f3e2a3c9316d43ac"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_8a0085dc47200210f3e2a3c9316d4376^sys_idNOT IN0e0085dc47200210f3e2a3c9316d4389"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>
@@ -1578,7 +1580,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_8a0085dc47200210f3e2a3c9316d4376"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_8a0085dc47200210f3e2a3c9316d4376^sys_idNOT IN0a0085dc47200210f3e2a3c9316d439f,8a0085dc47200210f3e2a3c9316d43a7,8e0085dc47200210f3e2a3c9316d43a2"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>stdout_output</element>
         <help/>

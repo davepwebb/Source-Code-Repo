@@ -6,17 +6,21 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Test of a Watchlist JSON Payload</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>tanium_watchlist_payload_builder</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.description}}","label":"action➛description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.os_type}}","label":"action➛os_type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pathcount}}","label":"action➛pathCount","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"75e74461-89fa-465b-ae24-cfb194537e2c"}},{"name":"{{action.paths}}","label":"action➛paths","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.ops}}","label":"action➛paths➛ops","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5}}","label":"action➛paths➛paths","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.ops}}","label":"action➛paths➛paths➛ops","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.path}}","label":"action➛paths➛paths➛path","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.type}}","label":"action➛paths➛paths➛type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.excludes}}","label":"action➛paths➛paths➛excludes","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.ops.permission}}","label":"action➛paths➛paths➛ops➛permission","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.excludes.spec}}","label":"action➛paths➛paths➛excludes➛spec","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.includes}}","label":"action➛paths➛paths➛includes","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.paths.paths5.includes.structure}}","label":"action➛paths➛paths➛includes➛structure","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.export_version}}","label":"action➛export_version","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>Tanium Watchlist Payload Builder</name>
         <natlang/>
         <outputs/>
@@ -126,7 +130,6 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=5da0581e47810210f3e2a3c9316d435d"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=5da0581e47810210f3e2a3c9316d435d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5da0581e47810210f3e2a3c9316d435d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5da0581e47810210f3e2a3c9316d435d"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Tanium Watchlist Payload Builder">0e483b8647010210f3e2a3c9316d4389</action>
         <cid>d5c96453-2546-4671-9bab-a46300d44fc9</cid>
@@ -181,7 +184,6 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=6c88f3ca47010210f3e2a3c9316d43e5"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=6c88f3ca47010210f3e2a3c9316d43e5"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6c88f3ca47010210f3e2a3c9316d43e5"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6c88f3ca47010210f3e2a3c9316d43e5"/>
     <sys_hub_action_input action="delete_multiple" query="model=0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN336400da47410210f3e2a3c9316d434b,776400da47410210f3e2a3c9316d4355,bb6400da47410210f3e2a3c9316d4351,dda0581e47810210f3e2a3c9316d433c,f36400da47410210f3e2a3c9316d4343,fb6400da47410210f3e2a3c9316d4347"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -897,7 +899,6 @@
         <sys_updated_on>2024-03-21 20:44:05</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=64887bca47010210f3e2a3c9316d4357"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN336400da47410210f3e2a3c9316d4347,55a0581e47810210f3e2a3c9316d4340,776400da47410210f3e2a3c9316d434a,bb6400da47410210f3e2a3c9316d434d,bb6400da47410210f3e2a3c9316d4354,ff6400da47410210f3e2a3c9316d4357"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>name</element>
         <help/>
@@ -1037,7 +1038,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0e483b8647010210f3e2a3c9316d4389"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0e483b8647010210f3e2a3c9316d4389^sys_idNOT IN1e0e3f8247410210f3e2a3c9316d4329,d60e3f8247410210f3e2a3c9316d432f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>

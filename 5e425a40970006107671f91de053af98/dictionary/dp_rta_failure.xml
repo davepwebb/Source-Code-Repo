@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dd1df018835f921071719370ceaad3e2" label="Valós idejű anonimizálás hibája" max_length="40" name="dp_rta_failure" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Table Column" max_length="80" name="column" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="timeout" label="Failure Reason" mandatory="true" max_length="40" name="failure_reason" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aikakatkaisu" language="fi" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Délai" language="fr" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Leidőzítés" language="hu" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Tempo limite" language="pb" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Temporisation" language="fq" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Tidsavbrudd" language="nb" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Tidsgräns" language="sv" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Tiempo de espera" language="es" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Time-out" language="nl" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Timeout" language="it" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Timeout" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Vypršení časového limitu" language="cs" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Zamanaşımı" language="tr" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Zeitüberschreitung" language="de" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Время ожидания" language="ru" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="タイムアウト" language="ja" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="超时" language="zh" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="逾時" language="zt" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="시간 제한" language="ko" sequence="1" value="timeout"/>
+                <element inactive_on_update="false" label="Altro" language="it" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Andra" language="sv" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Annet" language="nb" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Autre" language="fr" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Autre" language="fq" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Diğer" language="tr" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Egyéb" language="hu" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Jiný" language="cs" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Muu" language="fi" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Otro" language="es" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Outro" language="pb" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Overig" language="nl" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Sonstiges" language="de" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Другое" language="ru" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="その他" language="ja" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="其他" language="zh" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="其他" language="zt" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="기타" language="ko" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Failure Reason Details" mandatory="true" max_length="5000" name="failure_reason_details" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Privacy Configuration" mandatory="true" max_length="32" name="privacy_config" reference="dp_configuration" type="reference"/>
+        <element label="Record" mandatory="true" max_length="32" name="record_sys_id" read_only="true" type="GUID"/>
+        <element attributes="base_start=true" label="Table Name" mandatory="true" max_length="80" name="table" read_only="true" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Timestamp" mandatory="true" max_length="40" name="timestamp" read_only="true" type="glide_date_time"/>
+        <index name="index">
+            <element name="privacy_config"/>
+        </index>
+        <index name="index2">
+            <element name="table"/>
+            <element name="column"/>
+            <element name="timestamp"/>
+            <element name="record_sys_id"/>
+        </index>
+    </element>
+</database>

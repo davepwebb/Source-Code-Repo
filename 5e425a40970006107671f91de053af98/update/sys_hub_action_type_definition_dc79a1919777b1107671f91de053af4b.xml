@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Convert a comma-delimited list to an array</description>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>convert_string_to_array_of_objects</internal_name>
         <label_cache>[{"name":"{{action.comma_delimited_string}}","label":"action➛comma_delimited_string","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[74374b51-4176-48b8-9917-c355fb64b9c7].list_of_objects}}","label":"step➛split step➛list_of_objects","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD68a431151affb11031950467146a8908","child_label":"list_of_objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"7d798e25-8bf6-421b-a8c8-007a4bbcf63e","uiUniqueId":"b72c2f67-ff24-4004-8d7e-e4c9363c657b"}}]</label_cache>
         <master_snapshot>ea3ae91d9777b1107671f91de053af75</master_snapshot>
+        <master_snapshot_digest/>
         <name>Convert String to Array of Objects</name>
         <natlang/>
         <outputs/>
@@ -35,7 +39,7 @@
         <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_dc79a1919777b1107671f91de053af4b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 15:17:32</sys_updated_on>
+        <sys_updated_on>2024-11-19 22:38:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -396,7 +400,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=140ae9d59777b1107671f91de053af30"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_140ae9d59777b1107671f91de053af30^sys_idNOT IN500a61999777b1107671f91de053af40"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>list_of_objects</element>
         <help/>
@@ -779,7 +782,6 @@
         <sys_updated_on>2024-01-16 23:07:32</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2c0a61999777b1107671f91de053af6f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dc79a1919777b1107671f91de053af4b^sys_idNOT IN180ae9d59777b1107671f91de053af2e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>comma_delimited_string</element>
         <help/>
@@ -804,7 +806,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dc79a1919777b1107671f91de053af4b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dc79a1919777b1107671f91de053af4b^sys_idNOT IN04efed11973fb1107671f91de053af24,1a3ae91d9777b1107671f91de053af41,1e3ae91d9777b1107671f91de053af46"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>variable</element>
         <help/>
@@ -897,11 +898,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Convert a comma-delimited list to an array</description>
+        <flow_priority/>
         <internal_name>convert_string_to_array_of_objects</internal_name>
         <label_cache>[{"name":"{{action.comma_delimited_string}}","label":"action➛comma_delimited_string","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[74374b51-4176-48b8-9917-c355fb64b9c7].list_of_objects}}","label":"step➛split step➛list_of_objects","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD68a431151affb11031950467146a8908","child_label":"list_of_objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"7d798e25-8bf6-421b-a8c8-007a4bbcf63e","uiUniqueId":"b72c2f67-ff24-4004-8d7e-e4c9363c657b"}}]</label_cache>
         <master>true</master>
@@ -1257,7 +1261,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2a3ae91d9777b1107671f91de053af7e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2a3ae91d9777b1107671f91de053af7e^sys_idNOT IN2e3ae91d9777b1107671f91de053af8b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>list_of_objects</element>
         <help/>
@@ -1640,7 +1643,6 @@
         <sys_updated_on>2024-01-16 23:08:30</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a23ae91d9777b1107671f91de053afa0"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ea3ae91d9777b1107671f91de053af75^sys_idNOT INea3ae91d9777b1107671f91de053af7c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>comma_delimited_string</element>
         <help/>
@@ -1665,7 +1667,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ea3ae91d9777b1107671f91de053af75"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ea3ae91d9777b1107671f91de053af75^sys_idNOT IN6def2551973fb1107671f91de053af5c,aa3ae91d9777b1107671f91de053af9b,ae3ae91d9777b1107671f91de053af96"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>variable</element>
         <help/>

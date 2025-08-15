@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Selected Tables and Columns</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Selected Tables and Columns</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">8b1ba25147000210f3e2a3c9316d43ca</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>webbda</sys_created_by>
+        <sys_created_on>2025-01-20 13:08:16</sys_created_on>
+        <sys_id>e91d3418835f921071719370ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Selected Tables and Columns</sys_name>
+        <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+        <sys_update_name>sys_wizard_answer_e91d3418835f921071719370ceaad3b5</sys_update_name>
+        <sys_updated_by>webbda</sys_updated_by>
+        <sys_updated_on>2025-01-20 13:08:16</sys_updated_on>
+        <table/>
+        <target_url>dp_real_time_technique.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

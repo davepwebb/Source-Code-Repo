@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" audit="true" db_object_id="8f617ebe47bb0210f3e2a3c9316d43cf" extends="sys_metadata" label="Configuração de privacidade" max_length="40" name="dp_configuration" type="collection">
+        <element hint="La sélection de cette option permettra l'écoute de la base de données en temps réel." label="Real Time Anonymization (Table)" max_length="40" name="real_time" type="boolean"/>
+        <element attributes="array=denormalized,no_sort=true,ref_ac_columns=name,ref_ac_columns_search=name,slushbucket_ref_no_expand=true" hint="Выберите таблицы и столбцы, которые необходимо анонимизировать" label="Data To Anonymize" max_length="1024" name="target_columns" reference="sys_dictionary" reference_qual="javascript:'sys_idIN ' + new PrivacyRTAHelper().getTargetColumns();" type="glide_list" use_reference_qualifier="advanced"/>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Selected Tables and Columns" language="en" table="dp_real_time_technique">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Selected Tables and Columns</label>
+            <language>en</language>
+            <name>dp_real_time_technique</name>
+            <plural>Selected Tables and Columns</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>webbda</sys_created_by>
+            <sys_created_on>2025-01-20 13:08:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Selected Tables and Columns</sys_name>
+            <sys_package display_value="Source Code Repo" source="5e425a40970006107671f91de053af98">5e425a40970006107671f91de053af98</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Source Code Repo">5e425a40970006107671f91de053af98</sys_scope>
+            <sys_update_name>sys_documentation_dp_real_time_technique__en</sys_update_name>
+            <sys_updated_by>webbda</sys_updated_by>
+            <sys_updated_on>2025-01-20 13:08:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

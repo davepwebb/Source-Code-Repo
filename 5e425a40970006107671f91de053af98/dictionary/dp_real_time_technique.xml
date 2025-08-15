@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" audit="true" db_object_id="691d3418835f921071719370ceaad3b4" extends="sys_metadata" label="Выбранные таблицы и столбцы" max_length="40" name="dp_real_time_technique" type="collection">
+        <element attributes="encode_utf8=false" label="Chosen Field" max_length="32" name="chosen_field" read_only="true" reference="sys_dictionary" type="reference"/>
+        <element attributes="encode_utf8=false" label="Privacy Technique Configuration" max_length="32" name="parameterized_technique" read_only="true" reference="dp_technique_with_params" type="reference"/>
+        <element attributes="encode_utf8=false" label="Privacy Configuration" mandatory="true" max_length="32" name="privacy_config" read_only="true" reference="dp_configuration" reference_cascade_rule="delete" type="reference"/>
+        <index name="index">
+            <element name="chosen_field"/>
+        </index>
+        <index name="index2">
+            <element name="parameterized_technique"/>
+        </index>
+        <index name="index3">
+            <element name="privacy_config"/>
+        </index>
+    </element>
+</database>
